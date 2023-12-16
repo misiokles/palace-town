@@ -1,0 +1,31 @@
+{
+	"08Nergal" :{
+		"class" :				"sultan",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32rouge.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44rouge.bmp",
+			"small" : 			"palace/heroes/portraits/Nergal-small.bmp",
+			"large" : 			"palace/heroes/portraits/Nergal-large.bmp"},
+
+		"army" :[
+				{ "creature":	"progue",	"min":	12,	"max" :	20 },
+				{ "creature":	"progue",	"min":	8,	"max" :	16 },
+				{ "creature":	"progue",	"min":	4,	"max" :	10 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"offence" },
+				{ "level" :		"basic",	"skill" :	"tactics" }],
+
+		"specialty" : {"creature" : "progue"},
+
+		"texts":{
+			"name" :			"Nergal",
+			"biography" :		"Besides being married to his wife Ereshkigal. Nergal is a skilled warrior with good tactics in combat",
+			"specialty" :{
+				"name" :		"Rouges",
+				"tooltip" :		"",
+				"description" : "{Rouges}\r\n\r\nIncreases the Attack and Defense skills of any Rouge and Reaver."
+		}}
+	}
+}

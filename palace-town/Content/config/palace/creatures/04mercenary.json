@@ -1,0 +1,51 @@
+{
+	"mercenary":{
+		"name" :{
+			"plural" :	"Mercenaries",
+			"singular" :"Mercenary"},
+		"advMapAmount" :{
+			"min" :		12,
+			"max" :		25},
+		"faction" :		"palace",
+
+		"level" :		2,
+		"attack" :		8,
+		"defense" :		8,
+		"damage" :		{ "min" : 5, "max" : 6 },
+		"hitPoints" :	25,
+		"speed" :		9,
+		"growth" :		7,
+		"fightValue" :	370,
+		"aiValue" :		370,
+		"cost" :		{ "gold" : 200 },
+		"doubleWide" :	true,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T2U.def",
+			"map" :			"palace/creatures/map/AVWMerc.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRMerc.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRMerc.bmp",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":	"NMADATTK.wav",
+			"defend":	"NMADDFND.wav",
+			"killed":	"NMADKILL.wav",
+			"move":	"NMADMOVE.wav",
+			"wince":	"NMADWNCE.wav"},
+
+		"abilities":{
+				"silverToung" :{
+					"type" : "MORALE",
+					"val" : 1,
+					"valueType" : "INDEPENDENT_MAX"
+				},
+				"sandWalker" :{
+					"type" :		"NO_TERRAIN_PENALTY",
+					"subtype" :		"terrain.sand",
+					"propagator" :	"HERO"
+				}
+		}
+	}
+}

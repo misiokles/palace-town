@@ -1,0 +1,40 @@
+{
+	"06Adad" :{
+		"class" :				"grandvizier",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32Storm.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44storm.bmp",
+			"small" : 			"palace/heroes/portraits/Adad-small.bmp",
+			"large" : 			"palace/heroes/portraits/Adad-large.bmp"},
+
+		"army" :[
+				{ "creature":	"djinn",	"min":	1,	"max" :	2 },
+				{ "creature":	"djinn",	"min":	1,	"max" :	2 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"airMagic" },
+				{ "level" :		"basic",	"skill" :	"waterMagic" }],
+
+		"spellbook" :[	"iceBolt", "lightningBolt", "protectAir", "protectWater","airShield" ],
+		"specialty" :{
+		"bonuses" :{
+				"airMagic" :{
+					"subtype" : 4,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" :		"TIMES_HERO_LEVEL"
+		}}},
+		
+		"texts":{
+			"name" :			"Adad",
+			"biography" :		"Adad spends a lot of time studying storms and hurricanes. One day he was able to control them and no one knows why or how.",
+			"specialty" :{
+				"name" :		"Storm",
+				"tooltip" :		"",
+				"description" :	"{Storm}\r\n\r\nSpelbook with Water and Air Magic + Receives a 5% per level bonus to Air Magic."
+		}}
+	}
+}

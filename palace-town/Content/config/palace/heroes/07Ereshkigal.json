@@ -1,0 +1,33 @@
+{
+	"07Ereshkigal" :{
+		"class" :				"grandvizier",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32mummies.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44mummies.bmp",
+			"small" : 			"palace/heroes/portraits/Ereshkigal-small.bmp",
+			"large" : 			"palace/heroes/portraits/Ereshkigal-large.bmp"},
+
+		"army" :[
+				{ "creature":	"pmummy",		"min":	5,	"max" :	7 },
+				{ "creature":	"pmummy",		"min":	3,	"max" :	5 },
+				{ "creature" :	"pmummy",		"min" :	2,	"max" :	3 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"airMagic" },
+				{ "level" :		"basic",	"skill" :	"wisdom" }],
+
+		"spellbook" :[ "animateDead" ],
+		"specialty"  : {"creature" : "pmummy"},
+
+		"texts":{
+			"name" :			"Ereshkigal",
+			"biography" :		"According to the story, Ereshkigal are the country's greatest judge, maybe there is more to the story.",
+			"specialty" :{
+				"name" :		"Mummies",
+				"tooltip" :		"",
+				"description" :	"{Mummies}\r\n\r\nIncreases the Attack and Defense skills of Mummies and Ancient Rulers for each level.",
+				}
+		}
+	}
+}

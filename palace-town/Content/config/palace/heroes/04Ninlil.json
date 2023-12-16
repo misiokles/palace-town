@@ -1,0 +1,38 @@
+{
+	"04Ninlil" :{
+		"class" :				"grandvizier",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32chain.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44chain.bmp",
+			"small" : 			"palace/heroes/portraits/Ninlil-small.bmp",
+			"large" : 			"palace/heroes/portraits/Ninlil-large.bmp"},
+
+		"army" :[
+				{ "creature":	"djinn",	"min":	1,	"max" :	2 },
+				{ "creature":	"djinn",	"min":	1,	"max" :	2 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"airMagic" },
+				{ "level" :		"basic",	"skill" :	"sorcery" }],
+
+		"spellbook" :[ "chainLightning" ],
+		"specialty" :{
+			"bonuses" :{
+				"chainLightning" : {
+					"subtype" : "spell.chainLightning",
+					"type" : "SPECIAL_SPELL_LEV",
+					"updater" : "TIMES_HERO_LEVEL",
+					"val" : 3
+		}}},
+
+		"texts":{
+			"name" :			"Ninlil",
+			"biography" :		"Ninlil devotes herself to the doctrine of wind and is therefore very skilled in Air magic.",
+				"specialty" :{
+				"name" :		"Chain Lightning",
+				"tooltip" :		"speciality : Chain Lightning",
+				"description" :	"{Chain Lightning}\r\n\r\nCast Chain Lightning with increased effect, based on her level compared to the level of the target unit."
+		}}
+	}
+}

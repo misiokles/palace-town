@@ -1,0 +1,43 @@
+{
+	"magicraider":{
+		"name" :{
+			"plural" :	"Magic Raiders",
+			"singular" :"Magic Raider"},
+		"advMapAmount" :{
+			 "min" :	2,
+			 "max" :	4},
+		"faction":		"neutral",
+
+		"level" :		1,
+		"attack" :		3,
+		"defense" :		5,
+		"damage" :{		"min" : 2, "max" : 3 },
+		"hitPoints" :	5,
+		"speed" :		7,
+		"growth" :		16,
+		"fightValue" :	40,
+		"aiValue" :		40,
+		"cost" :{		"gold" : 30 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"magicraider/magicraider.def",
+			"map" :			"magicraider/AVMagicraider.def",
+			"iconSmall" :		"magicraider/UN32Magicr.bmp",
+			"iconLarge" :		"magicraider/Magicraider.bmp",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":			"creatures/MagicrATTK.wav",
+			"defend":			"creatures/MagicrDFND.wav",
+			"killed":			"creatures/MagicrKILL.wav",
+			"move":			"creatures/MagicrMOVE.wav", 
+			"wince":			"creatures/MagicrWNCE.wav"},
+
+		"abilities":
+			{
+			"flying" : {"type" :"FLYING"}
+			},
+	}
+}

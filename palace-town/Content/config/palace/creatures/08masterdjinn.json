@@ -1,0 +1,67 @@
+{
+	"masterdjinn":{
+		"name" :{
+			"plural" :	"Master Djinns",
+			"singular" :"Master Djinn"},
+		"advMapAmount" :{
+			"min" :		10,
+			"max" :		16},
+		"faction" :		"palace",
+
+		"level" :		4,
+		"attack" :		13,
+		"defense" :		11,
+		"damage" :		{ "min" : 13, "max" : 16 },
+		"hitPoints" :	40,
+		"speed" :		10,
+		"growth" :		5,
+		"fightValue" :	580,
+		"aiValue" :		580,
+		"cost" :		{ "gold" : 425 },
+		"doubleWide" :	false,
+
+		"graphics" :
+			{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T4U.def",
+			"map" :			"palace/creatures/map/AVWMdjinn.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRMdjinn.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRMdjinn.bmp",
+			"timeBetweenFidgets" : 1
+			},
+
+		"sound" :
+			{
+			"attack": "CALFATTK.wav",
+			"defend": "CALFDFND.wav",
+			"killed": "CALFKILL.wav",
+			"move": "CALFMOVE.wav",
+			"shoot": "CALFSHOT.wav",
+			"wince": "CALFWNCE.wav"
+			},
+
+		"abilities" :{
+			"flying" :{	
+				"type" :"FLYING"},
+			"fearless" :{
+				"type" : "FEARLESS"},
+			"drainsLife" :{
+				"type" : "LIFE_DRAIN",
+				"val" : 100},
+			"Bloodlust" :{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 2},
+			"disruptingRay" :{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.disruptingRay",
+				"val" : 2},
+			"castsCount" :{
+				"type" : "CASTS",
+				"val" : 3},
+			"castLength" :{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3}
+				}
+	}
+}

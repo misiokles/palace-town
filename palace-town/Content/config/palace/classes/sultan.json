@@ -1,0 +1,79 @@
+{
+	"sultan" :{
+		"faction" :			"palace",
+		"name" :			"Sultan",
+		"affinity" :		"might",
+		"commander" :		"castronomer",
+
+		"animation" : {
+			"battle" : {
+				"male"   :	"palace/heroes/PTBMTHM1.def",
+				"female" :	"palace/heroes/PTBMTHF1.def" }},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" : "palace/heroes/AVWPTMTHM1.def" },
+				"female" : { "animation" : "palace/heroes/AVWPTMTHF1.def" }}},
+
+		"primarySkills" :
+			{
+			"attack"     :		2,
+			"defence"    :		3,
+			"spellpower" :		1,
+			"knowledge"  :		1
+			},
+		"lowLevelChance" :{
+			"attack"     :		40,
+			"defence"    :		40,
+			"spellpower" :		10,
+			"knowledge"  :		10},
+		"highLevelChance" :{
+			"attack"     :		40,
+			"defence"    :		40,
+			"spellpower" :		10,
+			"knowledge"  :		10},
+		"secondarySkills" :{
+			"pathfinding"  :	6,
+			"archery"      :	8,
+			"logistics"    :	6,
+			"scouting"     :	4,
+			"diplomacy"    :	6,
+			"navigation"   :	3,
+			"leadership"   :	6,
+			"wisdom"       :	3,
+			"mysticism"    :	1,
+			"luck"         :	7,
+			"ballistics"   :	8,
+			"eagleEye"     :	1,
+			"necromancy"   :	0,
+			"estates"      :	6,
+			"fireMagic"    :	2,
+			"airMagic"     :	2,
+			"waterMagic"   :	2,
+			"earthMagic"   :	2,
+			"scholar"      :	1,
+			"tactics"      :	4,
+			"artillery"    :	7,
+			"learning"     :	4,
+			"offence"      :	8,
+			"armorer"      :	8,
+			"intelligence" :	1,
+			"sorcery"      :	1,
+			"resistance"   :	7,
+			"firstAid"     :	7},
+
+		"defaultTavern" :		5,
+		"tavern" :
+			{
+			"castle"     	:	2,
+			"rampart"    	:	2,
+			"tower"      	:	4,
+			"inferno"    	:	2,
+			"necropolis" 	:	2,
+			"dungeon"    	:	4,
+			"stronghold" 	:	2,
+			"fortress"   	:	4,
+			"conflux"    	:	2,
+			"palace"		:	5
+			}
+	}
+}

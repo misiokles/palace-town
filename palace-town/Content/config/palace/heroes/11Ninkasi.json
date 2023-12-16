@@ -1,0 +1,31 @@
+{
+	"11Ninkasi" :{
+		"class" :				"sultan",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32leader.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44leader.bmp",
+			"small" : 			"palace/heroes/portraits/Ninkasi-small.bmp",
+			"large" : 			"palace/heroes/portraits/Ninkasi-large.bmp"},
+
+		"army" :[
+				{  "creature":	"pnomad",	"min":	6,	"max" :	9 },
+				{ "creature":	"pnomad",	"min":	6,	"max" :	9 }],
+
+		"skills" :[
+				{ "level" :		"expert",	"skill" :	"leadership" }
+		],
+
+		"specialty" : {
+		},
+
+		"texts":{
+			"name" :			"Ninkasi",
+			"biography" :		 "She prides herself on her skills in brewing alcoholic beverages, which boosts the morale of her troops.",
+			"specialty" :{
+				"name" :		"Leader",
+				"tooltip" :		"",
+				"description" : "{Leader}\r\n\r\nStarts with Expert Leadership"
+		}}
+	}
+}

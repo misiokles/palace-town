@@ -1,0 +1,44 @@
+{
+	"pnomad":{
+		"name" :{
+			"plural" :	"Nomads",
+			"singular" :"Nomad"},
+		"advMapAmount" :{
+			"min" :		16,
+			"max" :		25},
+		"faction" :		"palace",
+		"upgrades":		["mercenary"],
+		"level" :		2,
+		"attack" :		6,
+		"defense" :		6,
+		"damage" :		{ "min" : 4, "max" : 6 },
+		"hitPoints" :	20,
+		"speed" :		7,
+		"growth" :		7,
+		"fightValue" :	330,
+		"aiValue" :		330,
+		"cost" :		{ "gold" : 150 },
+		"doubleWide" :	true,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T2.def",
+			"map" :			"palace/creatures/map/AVWNomad.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRNomad.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRNomad.bmp",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":	"NMADATTK.wav",
+			"defend":	"NMADDFND.wav",
+			"killed":	"NMADKILL.wav",
+			"move":	"NMADMOVE.wav",
+			"wince":	"NMADWNCE.wav"},
+
+		"abilities":{
+				"sandWalker" :{
+				"type" :		"NO_TERRAIN_PENALTY",
+				"subtype" :		"terrain.sand",
+				"propagator" :	"HERO"}}
+	}
+}

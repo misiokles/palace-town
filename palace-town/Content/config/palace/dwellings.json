@@ -1,0 +1,74 @@
+{"core:creatureGeneratorCommon" :{
+	"types" : {
+		"palaceLevel1" :{
+			"name" :				"Hideout",
+			"creatures" :			[[ "progue" ]],
+			"templates" :{
+				"default" :{
+					"animation" :	"palace/creatures/dwellings/AVhide",
+					"mask" :		["VBB","VAB" ]}}},
+
+		"palaceLevel2" : {
+			"name" :				"Stable",
+			"creatures" :			[[ "pnomad" ]],
+			"templates" : {
+				"default" : {
+					"animation" :	"palace/creatures/dwellings/AVstable",
+					"mask" :		[ "VBB", "VBA" ]}}},
+
+		"palaceLevel3" : {
+			"name" :				"Tomb Of King",
+			"creatures" :			[[ "pmummy" ]],
+			"templates" : {
+				"default" : {   
+					"animation" : 	"palace/creatures/dwellings/AVTOK",
+					"mask" :		["BBB","VAB"]}}},
+
+		"palaceLevel4" : {
+			"name" : 				"Sacred Temple",
+			"creatures" : 			[[ "djinn" ]],
+			"templates" : {
+				"default" : {
+					"animation" : 	"palace/creatures/dwellings/AVST",
+					"mask" : 		["VVV","VBB","VBA" ]}}},
+
+		"palaceLevel5" : {
+			"name" : 				"Griffin Nest",
+			"creatures" : 			[[ "pgriffin" ]],
+			"guards" : [			{"amount" : 9, "type" : "pgriffin" }],
+			"templates" : {
+				"default" : {
+					"animation" :	"palace/creatures/dwellings/AVGN",
+					"mask" : 		["VBB", "VBA" ]}}},
+
+            "palaceLevel6" : {
+                "name" : "Fortune Tent",
+                "creatures" : [[ "seer" ]],
+                "guards" : [
+                    { "amount" : 6, "type" : "seer" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "palace/creatures/dwellings/AVFT",
+                        "mask" : ["VBB","VBA" ]
+                    }
+                }
+            },
+            "palaceLevel7" : {
+                "name" : "Pyramid",
+                "creatures" : [[ "copperdragon" ]],
+                "guards" : [
+                    { "amount" : 3, "type" : "copperdragon" }
+                ],
+                "templates" : {
+                    "default" : {
+                        "animation" : "palace/creatures/dwellings/AVpyramid",
+                        "mask" : ["VBB","VBA" ]}}},
+		"neutralLevel1" :{
+			"name" :				"Slum Quater",
+			"creatures" :			[[ "magicraider" ]],
+			"templates" :{
+				"default" :{
+					"animation" :	"magicraider/AVSQ",
+					"mask" :		["BBB","BBA","BBB" ]}}}
+}}}

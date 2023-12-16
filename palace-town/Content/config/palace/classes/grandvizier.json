@@ -1,0 +1,78 @@
+{
+	"grandvizier" :{
+		"faction" :			"palace",
+		"name" :			"Grand Vizier",
+		"affinity" :		"magic",
+		"commander" :		"castronomer",
+		"animation" : {
+			"battle" : {
+				"male"   :	"palace/heroes/PTBMCHM2.def",
+				"female" :	"palace/heroes/PTBMCHF2.def" }},
+		"mapObject" : {
+			"templates" : {
+				"male"   : { "animation" : "palace/heroes/AVWPTMCHM2.def" },
+				"female" : { "animation" : "palace/heroes/AVWPTMCHF2.def" }}},
+
+		"primarySkills" :{
+			"attack"     :		1,
+			"defence"    :		1,
+			"spellpower" :		3,
+			"knowledge"  :		2},
+		"lowLevelChance" :{
+			"attack"     :		10,
+			"defence"    :		10,
+			"spellpower" :		40,
+			"knowledge"  :		40},
+		"highLevelChance" :{
+			"attack"     :		10,
+			"defence"    :		10,
+			"spellpower" :		40,
+			"knowledge"  :		40},
+		"secondarySkills" :
+			{
+			"pathfinding"  :	5,
+			"archery"      :	1,
+			"logistics"    :	5,
+			"scouting"     :	1,
+			"diplomacy"    :	1,
+			"navigation"   :	1,
+			"leadership"   :	1,
+			"wisdom"       :	8,
+			"mysticism"    :	8,
+			"luck"         :	4,
+			"ballistics"   :	1,
+			"eagleEye"     :	5,
+			"necromancy"   :	0,
+			"estates"      :	1,
+			"fireMagic"    :	8,
+			"airMagic"     :	8,
+			"waterMagic"   :	8,
+			"earthMagic"   :	8,
+			"scholar"      :	7,
+			"tactics"      :	1,
+			"artillery"    :	1,
+			"learning"     :	5,
+			"offence"      :	1,
+			"armorer"      :	1,
+			"intelligence" :	8,
+			"sorcery"      :	7,
+			"resistance"   :	2,
+			"firstAid"     :	2
+			},
+
+		"defaultTavern" :		5,
+		"tavern" :
+			{
+			"castle"		:	2,
+			"rampart"		:	2,
+			"tower"		:	4,
+			"inferno"    	:	2,
+			"necropolis"	:	2,
+			"dungeon"		:	4,
+			"stronghold"	:	2,
+			"fortress"		:	4,
+			"conflux"		:	2,
+			"palace"		:	5
+			}
+	}
+}

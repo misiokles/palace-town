@@ -1,0 +1,64 @@
+{
+	"reaver":{
+		"name" :{
+			"plural" :	"Reavers",
+			"singular" :"Reaver"},
+		"advMapAmount" :{
+			"min" :		18,
+			"max" :		30},
+		"faction" :		"palace",
+
+		"level" :		1,
+		"attack" :		4,
+		"defense" :		2,
+		"damage" :		{ "min" : 1, "max" : 4 },
+		"hitPoints" :	10,
+		"speed" :		6,
+		"growth" :		8,
+		"horde" : 		6,
+		"fightValue" :	110,
+		"aiValue" :		110,
+		"cost" :		{ "gold" : 75 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T1U.def",
+			"map" :			"palace/creatures/map/AVWReaver.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRReaver.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRReaver.bmp",
+			"timeBetweenFidgets" : 1},
+
+		"sound" :
+			{
+			"attack":			"ROGUATTK.wav",
+			"defend":			"ROGUDFND.wav",
+			"killed":			"ROGUKILL.wav",
+			"move":			"ROGUMOVE.wav",
+			"wince":			"ROGUWNCE.wav"
+			},
+
+		"abilities":{
+			"unlimitedRetaliation" :{
+				"type" : "UNLIMITED_RETALIATIONS"
+			},
+			"visionsMonsters" :{
+				"type" :		"VISIONS",
+				"subtype" :		0,
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsHeroes" :{
+				"type" :		"VISIONS",
+				"subtype" :		1,
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsTowns" :{
+				"type" :		"VISIONS",
+				"subtype" :		2,
+				"val" :			3,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"}}
+	}
+}

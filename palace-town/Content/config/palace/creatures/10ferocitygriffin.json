@@ -1,0 +1,67 @@
+{
+	"ferocitygriffin":
+	{
+		"name" :
+		{
+			"plural" :	"Ferocity Griffins",
+			"singular" :"Ferocity Griffin"
+		},
+		"advMapAmount" :
+			{
+			"min" :		8,
+			"max" :		12
+			},
+		"faction" :		"palace",
+
+		"level" :		5,
+		"attack" :		16,
+		"defense" :		14,
+		"damage" :		{ "min" : 14, "max" : 14 },
+		"hitPoints" :	50,
+		"speed" :		11,
+		"growth" :		4,
+		"fightValue" :	1000,
+		"aiValue" :		1000,
+		"cost" :		{ "gold" : 600 },
+		"doubleWide" :	true,
+
+		"graphics" :
+			{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T5U.def",
+			"map" :			"palace/creatures/map/AVWFgri.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRFgri.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRFgri.bmp",
+			"timeBetweenFidgets" : 1
+			},
+
+		"sound" :
+			{
+			"attack":	"RGRFATTK.wav",
+			"defend":	"RGRFDFND.wav",
+			"killed":	"RGRFKILL.wav",
+			"move":	"RGRFMOVE.wav",
+			"wince":	"RGRFWNCE.wav"
+			},
+
+		"abilities":
+			{
+			"flying" :
+				{"type" :"FLYING"},
+			"deathStare" :
+				{
+				"type" : "DEATH_STARE",
+				"subtype" : 0,
+				"val" : 10
+				},
+			"fear" :
+				{"type" : "FEAR"},
+			"fearless" :
+				{"type" : "FEARLESS"},
+			"deathStrike" :
+				{
+				"type" : "DOUBLE_DAMAGE_CHANCE",
+				"val" : 20}
+				}
+	}
+}

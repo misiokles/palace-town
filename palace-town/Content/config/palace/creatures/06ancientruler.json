@@ -1,0 +1,77 @@
+{
+	"ancientruler":{
+		"name" :{
+			"plural" :	"Ancient Rulers",
+			"singular" :"Ancient Ruler"},
+		"advMapAmount" :{
+			"min" :		12,
+			"max" :		20},
+		"faction" :		"palace",
+
+		"level" :		3,
+		"attack" :		7,
+		"defense" :		7,
+		"damage" :		{ "min" : 5, "max" : 5 },
+		"hitPoints" :	15,
+		"speed" :		4,
+		"shots" :		14,
+		"growth" :		7,
+		"fightValue" :	450,
+		"aiValue" :		450,
+		"cost" :		{ "gold" : 300 },
+		"doubleWide" :	false,
+
+		"graphics" :
+			{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T3U.def",
+			"map" :			"palace/creatures/map/AVWAncr.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRAncr.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRAncr.bmp",
+			"timeBetweenFidgets" : 1,
+			"missile" :
+				{
+				"projectile" :	"palace/creatures/projectile/CURSEAW.def",
+				"attackClimaxFrame" : 4,
+				"offset" :
+					{
+					"lowerX" :	 62,
+					"lowerY" :	-93,
+					"middleX" :	 62,
+					"middleY" :	-93,
+					"upperX" :	 62,
+					"upperY" :	-93},
+					"frameAngles" : [90, 72, 45, 27, 0, -27, -45, -72, -90, 0, 0, 0]
+					}
+				},
+
+		"sound" :
+			{
+			"attack":	"MUMYATTK.wav",
+			"defend":	"MUMYDFND.wav",
+			"killed":	"MUMYKILL.wav",
+			"move":	"MUMYMOVE.wav",
+			"shoot":	"HCRSSHOT.wav",
+			"wince":	"MUMYWNCE.wav"
+			},
+
+		"abilities":
+			{
+			"curses" :
+				{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.curse",
+				"val" : 100
+				},
+			"castDisease" :
+				{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.disease",
+				"val" : 20
+				},
+			"undead" : { "type" : "UNDEAD" },
+			"canShoot" : { "type" :	"SHOOTER"},
+			"noMeleePenalty" : { "type" :	"NO_MELEE_PENALTY"}
+			}
+	}
+}

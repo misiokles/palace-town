@@ -1,0 +1,43 @@
+{
+	"01Marduk" :{
+		"class" :				"sultan",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32esta.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44esta.bmp",
+			"small" : 			"palace/heroes/portraits/Marduk-small.bmp",
+			"large" : 			"palace/heroes/portraits/Marduk-large.bmp"},
+
+		"army" :[
+				{ "creature":	"pnomad",	"min":	6,	"max" :	9 },
+				{ "creature":	"pnomad",	"min":	6,	"max" :	9 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"estates" }],
+
+		"specialty" :
+		{
+			"bonuses" :
+			{
+				"estates" :
+				{
+					"subtype" : 6,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" :		"TIMES_HERO_LEVEL"
+					}
+				}
+		},
+		"texts":{
+			"name" :			"Marduk",
+			"biography" :		"Marduk has traveled all over the world to and became famous for building great cities. He uses this reputation to form an army.",
+			"specialty" :{
+				"name" :		"Estates",
+				"tooltip" :		"",
+				"description" :	"{Estates}\r\n\r\nReceives a 5% per level bonus to Estates skill"
+		}}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"10Enki" :
+	{
+		"class" :				"grandvizier",
+		"female" :				false,
+		"images" :
+		{
+			"specialtySmall" :	"palace/heroes/specs/UN32resu.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44resu.bmp",
+			"small" : 			"palace/heroes/portraits/Enki-small.bmp",
+			"large" : 			"palace/heroes/portraits/Enki-large.bmp"
+		},
+		"army" :
+			[{ "creature" :	"pmummy",		"min" :	4,	"max" :	6 },
+			 { "creature" :	"pmummy",		"min" :	4,	"max" :	6 },
+			 { "creature" :	"pnomad",	"min" :	2,	"max" :	4 }],
+		"skills" :
+			[{ "level" :		"basic",	"skill" :	"mysticism" },
+			 { "level" :		"basic",	"skill" :	"wisdom" }],
+		"spellbook" : ["resurrection", "animateDead" ],
+		"specialty" :
+			{
+			"bonuses" :
+				{
+				"mysticism" :
+				{
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MANA_REGENERATION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" :		"TIMES_HERO_LEVEL"
+					}
+				}
+			},
+		"texts":
+		{
+			"name" :			"Enki",
+			"biography" :		"According to stories, Enki sought a way to bring the dead back to life. Whether he found it no one knows, more than Enki or perhaps Ninhursag.",
+			"specialty" :
+				{
+				"name" :		"Mystic Resurrect",
+				"tooltip" :		"",
+				"description" :	"{Mystic Resurrect}\r\n\r\nReceives a 5% per level bonus to Mysticism + resurrection and Animate Dead."}
+		}
+	}
+
+}

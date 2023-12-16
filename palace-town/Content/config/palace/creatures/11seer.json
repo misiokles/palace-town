@@ -1,0 +1,69 @@
+{
+	"seer":
+	{
+		"name" :
+		{
+			"plural" :	"Seers",
+			"singular" :"Seer"
+		},
+		"advMapAmount" :
+		{
+			"min" :		5,
+			"max" :		12
+		},
+		"faction" :		"palace",
+		"upgrades":		["sage"],
+		"level" :		6,
+		"attack" :		17,
+		"defense" :		15,
+		"damage" :		{ "min" : 19, "max" : 23 },
+		"hitPoints" :	75,
+		"speed" :		7,
+		"growth" :		2,
+		"fightValue" :	1250,
+		"aiValue" :		1250,
+		"cost" :		{ "gold" : 830 },
+		"doubleWide" :	false,
+
+		"graphics" :
+			{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T6.def",
+			"map" :			"palace/creatures/map/AVWSeer.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRSeer.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRSeer.bmp",
+			"timeBetweenFidgets" : 1
+			},
+
+		"sound" :
+			{
+			"attack": "PSYCATTK.wav",
+			"defend": "PSYCDFND.wav",
+			"killed": "PSYCKILL.wav",
+			"move": "PSYCMOVE.wav",
+			"wince": "PSYCWNCE.wav"
+			},
+
+		"abilities" :
+			{
+			"mirror" :
+				{
+				"type" : "MAGIC_MIRROR",
+				"val" : 80
+				},
+			"magicResistance" :
+				{
+				"type" : "SPELL_DAMAGE_REDUCTION",
+				"subtype" : -1,
+				"val" : 20
+				},
+			"noRetaliate" :
+				{"type" : "BLOCKS_RETALIATION"},
+			"drainsMana" :
+				{
+				"type" : "MANA_DRAIN",
+				"val" : 2
+				}
+			}
+	}
+}

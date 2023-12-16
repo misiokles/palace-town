@@ -1,0 +1,30 @@
+{
+	"14Shala" :{
+		"class" :				"sultan",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32nomad.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44nomad.bmp",
+			"small" : 			"palace/heroes/portraits/Shala-small.bmp",
+			"large" : 			"palace/heroes/portraits/Shala-large.bmp"},
+
+		"army" :[
+				{ "creature":	"pnomad",	"min":	6,	"max" :	9 },
+				{ "creature":	"pnomad",	"min":	6,	"max" :	9 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"logistics" },
+				{ "level" :		"basic",	"skill" :	"pathfinding" }],
+
+		"specialty"  : {"creature" : "pnomad"},
+
+		"texts":{
+			"name" :			"Shala",
+			"biography" :		"Shala loves life and has great compassion for other lives, human and animal. She is loved by the people and is happy to help with the harvests.",
+			"specialty" :{
+				"name" :		"Nomad",
+				"tooltip" :		"",
+				"description" :	"{Nomad}\r\n\r\nIncreases the Attack and Defense skills of Nomads and Mercenaries for each level."
+		}}
+	}
+}

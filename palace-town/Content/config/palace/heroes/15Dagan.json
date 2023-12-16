@@ -1,0 +1,40 @@
+{
+	"15Dagan" :{
+		"class" :				"sultan",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32armor.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44armor.bmp",
+			"small" : 			"palace/heroes/portraits/Dagan-small.bmp",
+			"large" : 			"palace/heroes/portraits/Dagan-large.bmp"},
+
+		"army" :[
+				{ "creature":	"progue",	"min":	16,	"max" :	24 },
+				{ "creature":	"ballista",	"min":	1,	"max" :	1 },
+				{ "creature":	"progue",	"min":	4,	"max" :	10 }],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"armorer" },
+				{ "level" :		"basic",	"skill" :	"offence" }],
+
+		"specialty" : {
+			"bonuses" : {
+				"armorer" : {
+					"subtype" : -1,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" :		"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Dagan",
+			"biography" :		"Dagan is very popular with the people. As he is happy to help with all the vegetation so that the harvests will be as good as possible.",
+			"specialty" :{
+				"name" :		"Armorer",
+				"tooltip" :		"speciality : Armorer",
+				"description" :	"{Armorer}\r\n\r\nReceives a 5% per level bonus to Armorer skill."
+		}}
+	}
+}

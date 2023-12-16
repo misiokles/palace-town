@@ -1,0 +1,64 @@
+{
+	"progue":{
+		"name" :{
+			"plural" :	"Rogues",
+			"singular" :"Rogue"},
+		"advMapAmount" :{
+			"min" :		18,
+			"max" :		40},
+		"faction" :		"palace",
+		"upgrades":		["reaver"],
+		"level" :		1,
+		"attack" :		3,
+		"defense" : 	2,
+		"damage" :		{ "min" : 1, "max" : 3 },
+		"hitPoints" :	8,
+		"speed" : 		5,
+		"growth" : 		8,
+		"horde" : 		6,
+		"fightValue" :	80,
+		"aiValue" : 	80,
+		"cost" : 		{ "gold" : 60 },
+		"doubleWide" :	false,
+
+		"graphics" :{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T1.def",
+			"map" :			"palace/creatures/map/AVWRogue.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRRogue.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRRogue.bmp",
+            "timeBetweenFidgets" : 1},
+
+		"sound" :{
+			"attack":		"ROGUATTK.wav",
+			"defend":		"ROGUDFND.wav",
+			"killed":		"ROGUKILL.wav",
+			"move":		"ROGUMOVE.wav",
+			"wince":		"ROGUWNCE.wav"},
+
+		"abilities":{
+
+			"extraRetaliation" :{
+				"type" : "ADDITIONAL_RETALIATION",
+				"val" : 1
+			},
+			"visionsMonsters" :{
+				"type" :		"VISIONS",
+				"subtype" :		0,
+				"val" :			2,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsHeroes" :{
+				"type" :		"VISIONS",
+				"subtype" :		1,
+				"val" :			2,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"},
+			"visionsTowns" :{
+				"type" :		"VISIONS",
+				"subtype" :		2,
+				"val" :			2,
+				"valueType" :	"INDEPENDENT_MAX",
+				"propagator" :	"HERO"}}
+	}
+}

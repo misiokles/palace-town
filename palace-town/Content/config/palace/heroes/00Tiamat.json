@@ -1,0 +1,41 @@
+{
+	"00Tiamat" :
+	{
+		"class" :				"grandvizier",
+		"female" :				true,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32earth.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44earth.bmp",
+			"small" : 			"palace/heroes/portraits/Tiamat-small.bmp",
+			"large" : 			"palace/heroes/portraits/Tiamat-large.bmp"},
+
+		"army" :[
+				{ "creature":	"progue",		"min":	12,	"max" :	20 },
+				{ "creature":	"progue",		"min":	8,	"max" :	16 },
+				{ "creature":	"progue",		"min":	4,	"max" :	10 }],
+
+		"skills" :
+				[ { "level" : "advanced", "skill" :	"earthMagic" }],
+
+		"spellbook" :[	"meteorShower","quicksand","earthquake", "protectEarth" ],
+	"specialty" :{
+		"bonuses" :{
+				"earthMagic" :{
+					"subtype" : 8,
+					"targetSourceType" : "SECONDARY_SKILL",
+					"type" : "MAGIC_SCHOOL_SKILL",
+					"val" : 5,
+					"valueType" : "PERCENT_TO_BASE",
+					"updater" :		"TIMES_HERO_LEVEL"
+		}}},
+
+		"texts":{
+			"name" :			"Tiamat",
+			"biography" :		"Tiamat's temperament controls her, she can be as calm as a still water, but if you provoke her, a force of nature is unleashed.",
+			"specialty" :{
+				"name" :		"Earthpower",
+				"tooltip" :		"",
+				"description" :	"{Earthpower}\r\n\r\nSpelbook with Earth Magic + Receives a 5% per level bonus to Earth Magic."
+		}}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"03Enlil" :
+	{
+		"class" :				"grandvizier",
+		"female" :				false,
+		"images" :
+			{
+			"specialtySmall" :	"palace/heroes/specs/UN32crystal.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44crystal.bmp",
+			"small" : 			"palace/heroes/portraits/Enlil-small.bmp",
+			"large" : 			"palace/heroes/portraits/Enlil-large.bmp"
+			},
+
+	"army" :
+		[{ "creature":	"progue",		"min":	8,	"max" :	16 },
+		 { "creature":	"pnomad",	"min":	3,	"max" :	6 },
+		 { "creature" :	"pmummy",		"min" :	2,	"max" :	3 }],
+
+	"skills" :
+			[{ "level" :		"basic",	"skill" :	"waterMagic" },
+			 { "level" :		"basic",	"skill" :	"earthMagic" }],
+
+	"spellbook" : [ "cure", "bless", "stoneSkin"],
+		"specialty" : 
+		{
+			"bonuses" :
+			{
+				"crystal" :
+					{
+					"subtype" :	"resource.crystal",
+					"type" :	"GENERATE_RESOURCE",
+					"val" :		1
+					}
+			}
+		},
+
+		"texts":
+		{
+			"name" :			"Enlil",
+			"biography" :		"Enlil takes the healing powers of the waters and the earth very seriously. He says that water and earth together can heal everything.",
+			"specialty" :
+			{
+				"name" :		"Crystal",
+				"tooltip" :		"",
+				"description" :	"{Crystal}\r\n\r\n+1 Crystal per day."}
+			}
+	}
+}

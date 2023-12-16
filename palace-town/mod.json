@@ -1,0 +1,69 @@
+{
+	"name" :		"Palace Town",
+	"description" :	"Palace is a new town that takes its inspiration from Mesopotamian, Sumerian and Babylonian, Heroes is from gods and towns from citys",
+	"author":		"Julia",
+	"version" :		"0.1",
+	"contact":		"mail: julia.k.marklundu@gmail.com",
+	"modType" :		"Town",
+
+	"changelog" :{
+		"v0.1":[	"Added new factions 'palace'; Creatures & Heroes" ]},
+
+	"factions" :[
+		"config/palace/town/buildings.json",
+		"config/palace/town/faction.json",
+		"config/palace/town/puzzle.json",
+		"config/palace/town/siege.json",
+		"config/palace/town/structures.json"],
+
+	"creatures" :[
+		"config/palace/creatures/01progue.json",
+		"config/palace/creatures/02reaver.json",
+		"config/palace/creatures/03pnomad.json",
+		"config/palace/creatures/04mercenary.json",
+		"config/palace/creatures/05pmummy.json",
+		"config/palace/creatures/06ancientruler.json",
+		"config/palace/creatures/07djinn.json",
+		"config/palace/creatures/08masterdjinn.json",
+		"config/palace/creatures/09pgriffin.json",
+		"config/palace/creatures/10ferocitygriffin.json",
+		"config/palace/creatures/11seer.json",
+		"config/palace/creatures/12sage.json",
+		"config/palace/creatures/13copperdragon.json",
+		"config/palace/creatures/14patinadragon.json",
+		"config/palace/creatures/15astronomer.json",
+		"config/magicraider/magicraider.json"],
+
+	"heroClasses" :[
+		"config/palace/classes/grandvizier.json",
+		"config/palace/classes/sultan.json"],
+
+	"heroes" :
+		[
+		"config/palace/heroes/00Tiamat.json",
+		"config/palace/heroes/01Marduk.json",
+		"config/palace/heroes/02Ninhursag.json",
+		"config/palace/heroes/03Enlil.json",
+		"config/palace/heroes/04Ninlil.json",
+		"config/palace/heroes/05Nabu.json",
+		"config/palace/heroes/06Adad.json",
+		"config/palace/heroes/07Ereshkigal.json",
+		"config/palace/heroes/08Nergal.json",
+		"config/palace/heroes/09Gula.json",
+		"config/palace/heroes/10Enki.json",
+		"config/palace/heroes/11Ninkasi.json",
+		"config/palace/heroes/12Shamash.json",
+		"config/palace/heroes/13Ishtar.json",
+		"config/palace/heroes/14Shala.json",
+		"config/palace/heroes/15Dagan.json"
+		],
+
+	"spells" :[
+		"config/palace/spells/rfgEmet.json",
+		"config/palace/spells/rfgMet.json"],
+
+	"objects" :[
+        "config/palace/dwellings.json"]
+
+// [Special thanks to author Yuya Noboru of Refugee Town for spells and structur of maps. Contact Yuya Noboru for questions about spells and structur of maps "contact": mail: yuya.noboru@gmail.com]
+}

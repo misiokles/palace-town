@@ -1,0 +1,73 @@
+{
+	"djinn":{
+		"name" :{
+			"plural" :	"Djinns",
+			"singular" :"Djinn"},
+		"advMapAmount" :{
+			"min" :		10,
+			"max" :		20},
+		"faction" :		"palace",
+		"upgrades":		["masterdjinn"],
+		"level" :		4,
+		"attack" :		10,
+		"defense" :		8,
+		"damage" :		{ "min" : 10, "max" : 13 },
+		"hitPoints" :	30,
+		"speed" :		7,
+		"growth" :		4,
+		"fightValue" :	520,
+		"aiValue" :		520,
+		"cost" :		{ "gold" : 360 },
+		"doubleWide" :	false,
+
+		"graphics" :
+			{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T4.def",
+			"map" :			"palace/creatures/map/AVWDjinn.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRDjinn.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRDjinn.bmp",
+			"timeBetweenFidgets": 1
+			},
+
+		"sound" :
+			{
+			"attack": "GENIATTK.wav",
+			"defend": "GENIDFND.wav",
+			"killed": "GENIKILL.wav",
+			"move": "GENIMOVE.wav",
+			"shoot": "CALFSHOT.wav",
+			"wince": "GENIWNCE.wav"
+			},
+
+		"abilities" :
+		{
+		"flying" :
+			{"type" :"FLYING"},
+		"fearless" :
+			{"type" : "FEARLESS"},
+		"Bloodlust" :
+				{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.bloodlust",
+				"val" : 2
+				},
+		"disruptingRay" :
+				{
+				"type" : "SPELLCASTER",
+				"subtype" : "spell.disruptingRay",
+				"val" : 30
+				},
+			"castsCount" :
+				{
+				"type" : "CASTS",
+				"val" : 1
+				},
+			"castLength" :
+				{
+				"type" : "CREATURE_ENCHANT_POWER",
+				"val" : 3},
+				},
+	
+	}
+}

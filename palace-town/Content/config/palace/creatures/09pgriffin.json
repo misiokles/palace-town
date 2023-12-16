@@ -1,0 +1,66 @@
+{
+	"pgriffin":
+	{
+		"name" :
+			{
+			"plural" :	"Griffins", 
+			"singular" :"Griffin"
+			},
+
+		"advMapAmount" :
+			{
+			"min" :		8,
+			"max" :		16
+			},
+		"faction" :		"palace",
+		"upgrades":		["ferocitygriffin"],
+		"level" :		5,
+		"attack" :		14,
+		"defense" :		12,
+		"damage" :		{ "min" : 16, "max" : 20 },
+		"hitPoints" :	50,
+		"speed" :		7,
+		"growth" :		4,
+		"fightValue" :	800,
+		"aiValue" :		800,
+		"cost" :		{ "gold" : 500 },
+		"doubleWide" :	true,
+
+		"graphics" :
+			{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T5.def",
+			"map" :			"palace/creatures/map/AVWGrif.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRGrif.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRGrif.bmp",
+			"timeBetweenFidgets" : 1
+			},
+
+		"sound" :
+			{
+			"attack":	"GRIFATTK.wav",
+			"defend":	"GRIFDFND.wav",
+			"killed":	"GRIFKILL.wav",
+			"move":	"GRIFMOVE.wav",
+			"wince":	"GRIFWNCE.wav"
+			},
+
+		"abilities" :
+			{
+			"flying" :
+				{		
+				"type" :"FLYING"
+				},
+			"deathStare" : 
+				{
+				"type" : "DEATH_STARE",
+				"subtype" : 0,
+				"val" : 10
+				},
+			"fear" :
+				{"type" : "FEAR"},
+			"fearless" :
+				{"type" : "FEARLESS"}
+				}
+	}
+}

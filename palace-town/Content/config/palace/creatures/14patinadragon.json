@@ -1,0 +1,71 @@
+{
+	"patinadragon":
+	{
+		"name" :
+		{
+			"plural" :	"Patina Dragons",
+			"singular" :"Patina Dragon"
+		},
+		"advMapAmount" :
+		{
+			"min" :		3,
+			"max" :		8
+		},
+		"faction" :		"palace",
+
+		"level" :		7,
+		"attack" :		25,
+		"defense" :		25,
+		"damage" :		{ "min" : 40, "max" : 50 },
+		"hitPoints" :	300,
+		"speed" :		15,
+		"growth" :		1,
+		"fightValue" :	8720,
+		"aiValue" :		8720,
+		"cost" :		{ "gold" : 4000, "sulfur" : 2 },
+		"doubleWide" :	true,
+
+		"graphics" :
+			{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T7U.def",
+			"map" :			"palace/creatures/map/AVWPatdgn.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRPatdgn.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRPatdgn.bmp",
+			"timeBetweenFidgets" : 1
+			},
+
+		"sound" :
+			{
+			"attack": 	"RUSTATTK.wav",
+			"defend": 	"RUSTDFND.wav",
+			"killed": 	"RUSTKILL.wav",
+			"move":	"RUSTMOVE.wav",
+			"wince": 	"RUSTWNCE.wav"
+			},
+
+		"abilities" :
+		{
+			"flying" :
+				{"type" :"FLYING"},
+			"dragon" : 
+				{"type" : "DRAGON_NATURE"},
+			"fearless" :
+				{"type" : "FEARLESS"},
+			"acidBreath" :
+				{
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 30
+				},
+			"fireBreath" :
+				{"type" : "TWO_HEX_ATTACK_BREATH"},
+			"reduceDefence" :
+				{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100
+				}
+		}
+	}
+}

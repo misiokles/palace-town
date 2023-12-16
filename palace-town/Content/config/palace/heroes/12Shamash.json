@@ -1,0 +1,32 @@
+
+{
+	"12Shamash" :{
+		"class" :				"sultan",
+		"female" :				false,
+		"images" :{
+			"specialtySmall" :	"palace/heroes/specs/UN32catapult.bmp",
+			"specialtyLarge" :	"palace/heroes/specs/UN44catapult.bmp",
+			"small" : 			"palace/heroes/portraits/Shamash-small.bmp",
+			"large" : 			"palace/heroes/portraits/Shamash-large.bmp"},
+
+		"army" :[
+				{ "creature":	"progue",	"min":	16,	"max" :	24 },
+				{ "creature" :	"ballista",	"min" :	1,	"max" :	1  },
+				{ "creature":	"progue",	"min":	4,	"max" :	10 },],
+
+		"skills" :[
+				{ "level" :		"basic",	"skill" :	"offence" },
+				{ "level" :		"basic",	"skill" :	"ballistics" }],
+
+		"specialty" : {"creature" : "ballista"},
+
+		"texts":{
+			"name" :			"Shamash",
+			"biography" :		"Shamash a fair but firm leader. Ha is good at giving praise when something has gone well but at the same time being equally good at scolding someone when things have gone badly.",
+			"specialty" :{
+				"name" :		"Catapult",
+				"tooltip" :		"",
+				"description" :	"{Catapult}\r\n\r\nGive controll of the catapult."
+		}}
+	}
+}

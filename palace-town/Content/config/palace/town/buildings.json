@@ -1,0 +1,342 @@
+{
+	"palace" :
+	{
+		"town" :
+		{
+			"buildings" :
+				{
+				"mageGuild1" :
+					{
+					"id" :			0,
+					"name" :		"Mage Guild 1",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" :		{"gold" :2000,"wood" :5,"ore" :5}
+					},
+				"mageGuild2" :
+					{
+					"id" : 			1,
+					"name" :		"Mage Guild 2",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost" :		{"gold" :1000,"wood":5,"ore":5,"mercury":4,"crystal":4,"sulfur":4,"gems":4},
+					"upgrades" :	"mageGuild1"
+					},
+				"mageGuild3" :
+					{
+					"id" :			2,
+					"name" :		"Mage Guild 3",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":6,"crystal":6,"sulfur":6,"gems":6},
+					"upgrades" :	"mageGuild2"
+					},
+				"mageGuild4" :
+					{
+					"id" :			3,
+					"name" :		"Mage Guild 4",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":8,"crystal":8,"sulfur":8,"gems":8},
+					"upgrades" :	"mageGuild3"
+					},
+				"mageGuild5" :
+					{
+					"id" :			4,
+					"name" :		"Mage Guild 5",
+					"description" :	"Entering the Mage Guild will allow a visiting hero to learn the spells kept within.",
+					"cost":			{"gold" :1000,"wood":5,"ore":5,"mercury":10,"crystal":10,"sulfur":10,"gems":10},
+					"upgrades" :	"mageGuild4"
+					},
+
+				"fort" :
+					{
+					"id" :			7,
+					"name" :		"Fort",
+					"description" :	"The Fort provides your town with defensive walls.",
+					"cost" :		{"gold":5000,"wood":20,"ore":20}
+					},
+				"citadel" :
+					{
+					"id" :			8,
+					"name" :		"Citadel",
+					"description" :	"Including a 50% increase to base creature growth, the Citadel adds a keep, and other terrain obstacles, to a town's defenses.",
+					"cost" :		{"gold":2500,"ore":5},
+					"upgrades" :	"fort"
+					},
+				"castle" :
+					{
+					"id" :			9,
+					"name" :		"Castle",
+					"description" :	"The Castle adds two arrow towers, fortifies your town's defenses, and doubles base creature growth.",
+					"cost" :		{"gold":5000,"wood":10,"ore":10},
+					"upgrades" :	"citadel"
+					},
+
+				"villageHall" :
+					{
+					"id" : 			10,
+					"name" :		"Village Hall",
+					"description" :	"The Village Hall allows you to purchase town structures and earns your kingdom 500 gold per day.",
+					"mode" :		"auto"
+					},
+				"townHall" :
+					{
+					"id" :			11,
+					"name" :		"Town Hall",
+					"description" :	"The Town Hall allows you to purchase town structures and earns your kingdom 1000 gold per day.",
+					"cost" :		{"gold":2500},
+					"requires" :	[ "tavern" ],
+					"upgrades" :	"villageHall"
+					},
+				"cityHall" :
+					{
+					"id" :			12,
+					"name" : 		"City Hall",
+					"description" :	"The City Hall allows you to purchase town structures and earns your kingdom 2000 gold per day.",
+					"cost" :		{"gold":5000},
+					"requires" : 	[ "allOf", ["mageGuild1"], ["marketplace"], ["blacksmith"] ],
+					"upgrades" :	"townHall"
+					},
+				"capitol" :
+					{
+					"id" :			13,
+					"name" :		"Capitol",
+					"description" :	"The Capitol earns your kingdom 4000 gold per day.",
+					"cost" :		{"gold":10000},
+					"requires" :	[ "castle" ],
+					"upgrades" :	"cityHall"
+					},
+
+				"tavern" :
+					{
+					"id" :			5,
+					"name" :		"Tavern",
+					"description" :	"The Tavern increases increases morale for troops defending the city.",
+					"cost" :		{"gold":500,"wood":5}
+					},
+				 "shipyard"	:
+					{
+					"id" :			6,
+					"name" :		"Shipyard",
+					"description" : "The Shipyard allows you to purchase ships.",
+					"cost" :		{"gold":2000,"wood":20}
+					},
+				"marketplace" :
+					{
+					"id" :			14,
+					"name" :		"Marketplace",
+					"description" :	"With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"cost" :		{"gold":500,"wood":5}
+					},
+				"resourceSilo" :
+					{
+					"id" :			15,
+					"name" :		"Resource Silo",
+					"description" :	"The Resource Silo provides you with an additional +1 crystal each day.",
+					"cost" :		{"gold":5000,"ore":5},
+					"requires" :	["marketplace"]
+					},
+				"blacksmith" :
+					{
+					"id" :			16,
+					"name" :		"Blacksmith",
+					"description" : "The Blacksmith provides your armies with Ammo cart.",
+					"cost" :		{"gold":1000,"wood":5}
+					},
+
+				"horde1" :
+					{
+					"id" :			18,
+					"name" :		"Shady Shop",
+					"description" :	"Shady Shop increases weekly production of Rogues by 6 per week.",
+					"cost" :		{"gold":1000},
+					"requires" :	["dwellingLvl1"]
+					},
+				"horde1Upgr": 
+					{
+					"id" :			19,
+					"name" :		"Shady Shop",
+					"description" : "Shady Shop increases weekly production of Reavers by 6 per week.",
+					"cost" :		{"gold":1000},
+					"requires" :	[ "allOf", ["horde1"], ["dwellingUpLvl1"] ],
+					"mode" :		"auto"
+					},
+				"boat" :
+					{
+					"id" : 			20,
+					"name" :			"Boat",
+					"description" : "The Shipyard allows you to purchase ships."
+					},
+				"special1" :
+					{
+					"id": 			22,
+					"name" :	"Freelancers Guild",
+					"description":	"Allows you to trade creatures for resources.",
+					"cost":	{"gold":1000},
+					"requires": ["marketplace"],
+					"type": "freelancersGuild"
+					}, 
+				"special2" :
+					{
+					"id" :			17,
+					"name" :	"Farrier",
+					"description" :	"Increase the land movement rate of any visiting hero.",
+					"cost":	{"gold":2000,"wood":20},
+					"requires": [ "blacksmith" ],
+					"type": "stables"
+					},
+				"special3" :
+					{
+					"id" :			23,
+					"name" :	"Astronomy Guild",
+					"description":	"By studies of the stars. The Astronomy Guild adds number of spells in Mage Guild.",
+					"cost" :		{"gold" :1000,"wood":5,"ore":5,"mercury":5,"crystal":5,"sulfur":5,"gems":5},
+					"requires" :	["mageGuild1"],
+					"type" : "library"
+					}, 
+				"special4" :
+					{
+					"id" :			24,
+					"name":		"Hidden Passage", 
+					"description":	"Earn 10% interest of any gold you have at the start of each week.",
+					"cost" :		{"gold":5000, "wood":5, "ore":10},
+					"type" : "treasury"
+					},
+				"special5" :
+					{
+					"id" :			25,
+					"name" :	"Emperor Idol",
+					"description":	"Emperor Idol increase the fortune of the garrison by +2. During defending sieges.",
+					"cost" :		{"gold":1500,"crystal":10},
+					"requires":	["special4"],
+					"type": "fountainOfFortune"
+					},
+				"grail" :
+					{
+					"id" :			26,
+					"name" :		"Crystal Heart",
+                    		"description" :	"Crystal Heart increases weekly creature generation by 50 percent and adds 5000 gold per day. And it affords 7 mines (for all categories of resources respectively) for your kingdom. It also increases power 5 for defending heroes.",	
+					"produce":		{"gold":6000,"gems":1,"crystal":1,"sulfur":1,"mercury":1,"wood":2,"ore": 2}, 
+					"mode" :		"grail"
+					},
+
+				"dwellingLvl1" :
+					{
+					"id" :			30,
+					"description" :	"Hideout allows you to recruit Rogues.",
+					"name" :		"Hideout",
+					"cost" :		{"gold":100,"wood":5,"ore":5},
+					},
+				"dwellingLvl2" :
+					{
+					"id" :			31,
+					"description" :	"Stable allows you to recruit Nomads.",
+					"name" :		"Stable",
+					"cost" :		{"gold":1000,"wood":5, "ore":5},
+					"requires" :	["fort"]
+					},
+				"dwellingLvl3" :
+					{
+					"id" :			32,
+					"description" :	"Tomb of kings allows you to recruit Mumies.",
+					"name" :		"Tomb Of Kings",
+					"cost" :		{"gold":1500,"ore":15},
+					"requires" :	["allOf", ["fort"], ["blacksmith"]]
+					},
+				"dwellingLvl4" :
+					{
+					"id" :			33,
+					"description" :	"Sacred Temple allows you to recruit Djins.",
+					"name" :		"Sacred Temple",
+					"cost" :		{"gold":2000,"ore":10,"mercury":5},
+					"requires" :	[ "allOf", ["dwellingLvl1"], ["dwellingLvl2"], ["mageGuild2"]]
+					},
+				"dwellingLvl5" :
+					{
+					"id" :			34,
+					"description" :	"Griffin Nest allows you to recruit Griffins.",
+					"name" :		"Griffin Nest",
+					"cost" :		{"gold":2500,"wood":10},
+					"requires" :	["dwellingLvl4"]
+					},
+				"dwellingLvl6" :
+					{
+					"id" : 			35,
+					"description" : "Fortune Tent allows you to recruit Seers.",
+					"name" :		"Fortune Tent",
+					"cost" :		{"gold":3000,"wood":10,"crystal":5},
+					"requires" :	[ "allOf", ["dwellingLvl4"], ["dwellingLvl5"] ]
+					},
+				"dwellingLvl7" :
+					{
+					"id" :			36,
+					"description" : "Pyramid allows you to recruit Copper Dragons.",
+					"name" :		"Pyramid",
+					"cost" :		{"gold":15000,"ore":10,"crystal":5,"sulfur":5},
+					"requires" :	["dwellingLvl6"]
+					},
+
+				"dwellingUpLvl1" :
+					{
+					"id" :			37,
+					"description" :	"Upg. Hideout allows you to recruit Reavers.",
+					"name" :		"Upg. Hideout",
+					"cost" :		{"gold":500,"wood":5,"ore":5},
+					"requires" :	["dwellingLvl1"],
+					"upgrades" :	"dwellingLvl1"
+					},
+				"dwellingUpLvl2" :
+					{
+					"id" :			38,
+					"description" :	"Upg. Stable allows you to recruit Mercenaries.",
+					"name" :		"Upg. Stable",
+					"cost" :		{"gold":1500,"wood":5},
+					"requires" :	["dwellingLvl2"],
+					"upgrades" :	"dwellingLvl2"
+					},
+				"dwellingUpLvl3" :
+					{
+					"id" :			39,
+					"description" :	"Upg. Tomb of Kings allows you to recruit Ancient Rulers.",
+					"name" :		"Upg. Tomb of Kings",
+					"cost" :		{"gold":1500,"mercury":3,"sulfur":3},
+					"requires" :	[ "dwellingLvl3" ],		
+					"upgrades" :	"dwellingLvl3"
+					},
+				"dwellingUpLvl4" :
+					{
+					"id" :			40,
+					"description" :	"Upg. Sacred Palace allows you to recruit Master Djins.",
+					"name" :		"Upg. Sacred Palace",
+					"cost" :		{"gold":2000,"ore":5,"mercury":5},
+					"requires" :	[ "allOf", ["dwellingLvl3"], ["dwellingLvl4"], ["mageGuild2"]],
+					"upgrades" :	"dwellingLvl4"
+					},
+				"dwellingUpLvl5" :
+					{
+					"id" : 			41,
+					"description" :	"Upg. Griffin Nest allows you to recruit Ferocity Griffin.",
+					"name" :		"Upg. Griffin Nest",
+					"cost" :		{"gold":2000,"wood":5},
+					"requires" :	[ "dwellingLvl4"],
+					"upgrades" :	"dwellingLvl5"
+					},
+				"dwellingUpLvl6" :
+					{
+					"id" :			42,
+					"description" :	"Upg. Fortune Tent allows you to recruit Sages.",
+					"name" :		"Upg. Fortune Tent",
+					"cost" :		{"gold":3000,"wood":5,"crystal":5},
+                    		"requires" :	["dwellingLvl6"],
+					"upgrades" :	"dwellingLvl6"
+					},
+				"dwellingUpLvl7" :
+					{
+					"id" : 43,
+					"description" : "Upg. Pyramid allows you to recruit Patina Dragons.",
+					"name" :		"Upg. Pyramid",
+					"cost" :		{"gold":20000,"ore":20,"sulfur":5},
+					"requires" :	["dwellingLvl7"],
+					"upgrades" :	"dwellingLvl7"
+					}
+			}
+		}
+	}
+}

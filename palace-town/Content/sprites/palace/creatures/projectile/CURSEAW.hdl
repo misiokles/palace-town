@@ -1,0 +1,10 @@
+[Data]
+Type=0
+Shadow Type=0
+Groups Number=1
+Group0=cursedarrow01.bmp|cursedarrow02.bmp|cursedarrow03.bmp|cursedarrow04.bmp|cursedarrow05.bmp|cursedarrow06.bmp|cursedarrow07.bmp|cursedarrow08.bmp|cursedarrow09.bmp|
+Generate Selection=0
+ColorsBox.Colors=$FFFF00|$28311B|$0C1C28|$141D25|$071C33|$101837|$18232D|$2F3633|
+ShadowColorsBox.Colors=$FFFF00|$28311B|$0C1C28|$141D25|$071C33|$101837|$18232D|$2F3633|
+ColorsBox.ColorChecks=1|0|0|0|0|0|0|0|0|
+ShadowColorsBox.ColorChecks=1|1|1|1|1|1|1|1|

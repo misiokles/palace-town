@@ -1,0 +1,71 @@
+{
+	"copperdragon":
+	{
+		"name" :
+		{
+			"plural" :	"Copper Dragons",
+			"singular" :"Copper Dragon"
+		},
+		"advMapAmount" :
+		{
+			"min" :		4,
+			"max" :		10
+		},
+		"faction" :		"palace",
+		"upgrades":		["patinadragon"],
+		"level" :		7,
+		"attack" :		20,
+		"defense" :		20,
+		"damage" :		{ "min" : 40, "max" : 50 },
+		"hitPoints" :	200,
+		"speed" :		11,
+		"growth" :		1,
+		"fightValue" :	4700,
+		"aiValue" :		4700,
+		"cost" :		{ "gold" : 2400, "sulfur" : 1 },
+		"doubleWide" :	true,
+
+		"graphics" :
+			{
+			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
+			"animation" :		"palace/creatures/battle/T7.def",
+			"map" :			"palace/creatures/map/AVWCUdgn.def",
+			"iconSmall" :		"palace/creatures/iconsSmall/CRCUdgn.bmp",
+			"iconLarge" :		"palace/creatures/iconsBig/CRCUdgn.bmp",
+			"timeBetweenFidgets" : 1
+			},
+
+		"sound" :
+			{
+			"attack": "RUSTATTK.wav",
+			"defend": "RUSTDFND.wav",
+			"killed": "RUSTKILL.wav",
+			"move": "RUSTMOVE.wav",
+			"wince": "RUSTWNCE.wav"
+			},
+
+		"abilities" :
+			{
+			"flying" :
+				{"type" :"FLYING"},
+			"dragon" : 
+				{"type" : "DRAGON_NATURE"},
+			"fearless" :
+				{"type" : "FEARLESS"},
+			"acidBreath" :
+				{
+				"type" : "ACID_BREATH",
+				"val" : 25,
+				"addInfo" : 30
+				},
+			"fireBreath" :
+				{"type" : "TWO_HEX_ATTACK_BREATH"},
+			"reduceDefence" :
+				{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.acidBreath",
+				"val" : 100
+				}
+			}
+	}
+}

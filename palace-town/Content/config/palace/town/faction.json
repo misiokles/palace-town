@@ -1,0 +1,184 @@
+{
+	"palace" :{
+		"name" :					"Palace",
+		"nativeTerrain" :				"sand",
+		"alignment" :				"neutral",
+		"creatureBackground" :{
+			"120px" :				"palace/BCKG120.bmp",
+			"130px" :				"palace/BCKG130.bmp"},
+
+		"town" :{
+			"mapObject" :{
+				"filters" :{
+					"castle" :	[ "allOf", [ "castle" ],	[ "noneOf", [ "capitol" ] ] ],
+					"citadel" :	[ "allOf", [ "citadel" ],	[ "noneOf", [ "castle" ]  ] ],
+					"fort" :	[ "allOf", [ "fort" ],		[ "noneOf", [ "citadel" ] ] ]},
+
+				"templates" :{
+					"castle" :  { "animation" : "palace/adventure-map/town/town-castle.def" },
+					"citadel" : { "animation" : "palace/adventure-map/town/town-citadel.def" },
+					"fort"    : { "animation" : "palace/adventure-map/town/town-fort.def" },
+					"village" : { "animation" : "palace/adventure-map/town/town-village.def" },
+					"capitol" : { "animation" : "palace/adventure-map/town/town-capitol.def" }}},
+
+			"defaultTavern" :		5,
+			"tavern" :
+				{
+				"knight"		: 	2,
+				"cleric"		: 	2,
+				"ranger"		: 	2,
+				"druid"		: 	2,
+				"alchemist"		: 	4,
+				"wizard"		: 	4,
+				"demoniac"		: 	2,
+				"heretic"		: 	2,
+				"deathknight"	: 	2,
+				"necromancer"	: 	2,
+				"warlock"		: 	4,
+				"overlord"		: 	4,
+				"barbarian"		: 	2,
+				"battlemage"	: 	2,
+				"beastmaster"	: 	4,
+				"witch"		: 	4,
+				"planeswalker"	: 	2,
+				"elementalist"	: 	2,
+                		"grandvizier"	: 	5,
+                		"sultan"		: 	5
+				},
+
+			"tavernVideo" :			"TAVERN.BIK",
+			"guildBackground" :		"palace/town-screen/TPMAGERFG.bmp",
+			"guildSpells" : 
+				{
+				"airShield" :		3,
+				"antiMagic" :		8,
+				"berserk" :			6,
+				"bless" :			10,
+				"bloodlust" :		10,
+				"chainLightning" :	10,
+				"clone" :			5,
+				"counterstrike" :		5,
+				"cure" :			10,
+				"disguise" :		2,
+				"dispel" :			10,
+				"disruptingRay" :		8,
+				"earthquake" :		10,
+				"fireShield" :		2,
+				"fireWall" :		2,
+				"fireball" :		4,
+				"forceField" :		3,
+				"forgetfulness" :		5,
+				"fortune" :			7,
+				"frenzy" :			2,
+				"frostRing" :		10,
+				"haste" :			10,
+				"hypnotize" :		7,
+				"iceBolt" :			10,
+				"inferno" :			4,
+				"landMine" :		4,
+				"lightningBolt" :		8,
+				"magicArrow" :		10,
+				"meteorShower" :		10,
+				"mirth" :			6,
+				"misfortune" :		6,
+				"prayer" :			10,
+				"precision" :		6,
+				"protectAir" :		3,
+				"protectEarth" :		3,
+				"protectFire" :		3,
+				"protectWater" :		3,
+				"quicksand" :		10,
+				"removeObstacle" :	4,
+				"resurrection" :		5,
+				"scuttleBoat" :		4,
+				"shield" :			7,
+				"slayer" :			4,
+				"slow" :			7,
+				"sorrow" :			7,
+				"stoneSkin" :		7,
+				"summonBoat" :		4,
+				"teleport" :		5,
+				"townPortal" :		5,
+				"viewAir" :			3,
+				"viewEarth" :		3,
+				"visions" :			3,
+				"waterWalk" :		6,
+				"weakness" :		8,
+				"airElemental"   :	3,
+				"dimensionDoor"  :	5,
+				"earthElemental" :	3,
+				"fireElemental"  :	3,
+				"fly"            :	6,
+				"implosion"      :	10,
+				"magicMirror"    :	10,
+				"sacrifice"      :	5,
+				"waterElemental" :	3,
+				"rfgEmet"	:		5,
+				"rfgMet"	:		5
+				},
+
+			"townBackground":		"palace/town-screen/BCKG.bmp",
+			"guildWindow":		"palace/town-screen/MAGEW.bmp",
+			"buildingsIcons":		"palace/town-hall.def",
+			"hallBackground":		"TPTHBKRM",
+
+			"hallSlots":[
+				[ [ "villageHall", "townHall", "cityHall", "capitol" ],	[ "fort", "citadel", "castle" ], [ "tavern" ], [ "blacksmith", "special2" ] ],
+				[ [ "marketplace", "resourceSilo" ],	[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],	["special1", "shipyard" ]],
+				[ [ "special3"],	[ "special4", "special5" ],	[ "horde1", "horde1Upgr" ] ],
+				[ [ "dwellingLvl1", "dwellingUpLvl1" ],	[ "dwellingLvl2", "dwellingUpLvl2" ],	[ "dwellingLvl3", "dwellingUpLvl3" ],	[ "dwellingLvl4", "dwellingUpLvl4" ] ],
+				[ [ "dwellingLvl5", "dwellingUpLvl5" ],	[ "dwellingLvl6", "dwellingUpLvl6" ],	[ "dwellingLvl7", "dwellingUpLvl7" ] ]
+			],
+
+			"creatures" :[
+				["progue",	"reaver"],
+				["pnomad",	"mercenary"],
+				["pmummy",	"ancientruler"],
+				["djinn",	"masterdjinn"],
+				["pgriffin",	"ferocitygriffin"],
+				["seer",	"sage"],
+				["copperdragon",	"patinadragon"]],
+
+			"horde": [0,-1],
+			"icons" :{
+				"fort" :{
+					"built" :{
+						"large" :	"palace/icons/bigfortx.bmp",
+						"small" :	"palace/icons/smallfortx.bmp" },
+					"normal" :{
+						"large" :	"palace/icons/bigfort.bmp", 
+						"small" :	"palace/icons/smallfort.bmp" }},
+				"village" :{
+					"built" :{
+						"large" : 	"palace/icons/bignofortx.bmp",
+						"small" :	"palace/icons/smallnofortx.bmp" },
+					"normal" :{
+						"large" :	"palace/iconsbignofort.bmp",
+						"small" :	"palace/icons/smallnofortl.bmp"}}},
+
+			"primaryResource" :		"crystal",
+			"warMachine" :			"ammoCart",
+			"mageGuild" :			5,
+			"musicTheme" :			"music/PalaceTown",
+			"moatDamage" :			90,
+			"moatHexes" :			[ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
+
+			"names" : [
+				"Akkad",
+				"Babylon",
+				"Isin",
+				"Susa",
+				"Larsa",
+				"Assur",
+				"Niveve",
+				"Khorsabad",
+				"Kaldéen",
+				"Tushpa",
+				"Kanaan",
+				"Ebla",
+				"Mari",
+				"Yamhad",
+				"Halab" ]
+		}
+	}
+}

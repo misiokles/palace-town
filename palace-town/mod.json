@@ -2,12 +2,17 @@
 	"name" :		"Palace Town",
 	"description" :	"Palace is a new town that takes its inspiration from Mesopotamian, Sumerian and Babylonian, Heroes is from gods and towns from citys",
 	"author":		"Julia",
-	"version" :		"0.1",
+	"version" :		"0.2",
 	"contact":		"mail: julia.k.marklundu@gmail.com",
 	"modType" :		"Town",
-
+	"compatibility" :
+	{
+		"min" : "1.4.0"
+	},
 	"changelog" :{
-		"v0.1":[	"Added new factions 'palace'; Creatures & Heroes" ]},
+		"0.1": [ "Added new factions 'palace'; Creatures & Heroes" ],
+		"0.2": [ "AUpdate to vcmi-1.4 version" ]
+	},
 
 	"factions" :[
 		"config/palace/town/buildings.json",
@@ -32,11 +37,13 @@
 		"config/palace/creatures/13copperdragon.json",
 		"config/palace/creatures/14patinadragon.json",
 		"config/palace/creatures/15astronomer.json",
-		"config/magicraider/magicraider.json"],
+		"config/magicraider/magicraider.json"
+		],
 
 	"heroClasses" :[
 		"config/palace/classes/grandvizier.json",
-		"config/palace/classes/sultan.json"],
+		"config/palace/classes/sultan.json"
+		],
 
 	"heroes" :
 		[
@@ -60,10 +67,10 @@
 
 	"spells" :[
 		"config/palace/spells/rfgEmet.json",
-		"config/palace/spells/rfgMet.json"],
+		"config/palace/spells/rfgMet.json"
+	],
 
 	"objects" :[
         "config/palace/dwellings.json"]
 
-// [Special thanks to author Yuya Noboru of Refugee Town for spells and structur of maps. Contact Yuya Noboru for questions about spells and structur of maps "contact": mail: yuya.noboru@gmail.com]
 }

@@ -21,7 +21,7 @@
 	"specialty" :{
 		"bonuses" :{
 				"earthMagic" :{
-					"subtype" : 8,
+					"subtype" : "earth",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"val" : 5,

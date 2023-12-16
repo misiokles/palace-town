@@ -1,7 +1,8 @@
 {
 	"palace" :{
 		"name" :					"Palace",
-		"nativeTerrain" :				"sand",
+		"nativeTerrain" :			"sand",
+		"boat" : 					"boatCastle",
 		"alignment" :				"neutral",
 		"creatureBackground" :{
 			"120px" :				"palace/BCKG120.bmp",
@@ -113,8 +114,8 @@
 				"magicMirror"    :	10,
 				"sacrifice"      :	5,
 				"waterElemental" :	3,
-				"rfgEmet"	:		5,
-				"rfgMet"	:		5
+				"rfgEmet_p"	:		5,
+				"rfgMet_p"	:		5
 				},
 
 			"townBackground":		"palace/town-screen/BCKG.bmp",
@@ -153,15 +154,14 @@
 						"large" : 	"palace/icons/bignofortx.bmp",
 						"small" :	"palace/icons/smallnofortx.bmp" },
 					"normal" :{
-						"large" :	"palace/iconsbignofort.bmp",
-						"small" :	"palace/icons/smallnofortl.bmp"}}},
+						"large" :	"palace/icons/bignofort.bmp",
+						"small" :	"palace/icons/smallnofort.bmp"}}},
 
 			"primaryResource" :		"crystal",
 			"warMachine" :			"ammoCart",
 			"mageGuild" :			5,
 			"musicTheme" :			"music/PalaceTown",
-			"moatDamage" :			90,
-			"moatHexes" :			[ 11, 28, 44, 61, 77, 111, 129, 146, 164, 181 ],
+			"moatAbility" : 		"castleMoat",
 
 			"names" : [
 				"Akkad",

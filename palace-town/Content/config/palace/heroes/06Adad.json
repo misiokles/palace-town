@@ -20,7 +20,7 @@
 		"specialty" :{
 		"bonuses" :{
 				"airMagic" :{
-					"subtype" : 4,
+					"subtype" : "air",
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MAGIC_SCHOOL_SKILL",
 					"val" : 5,

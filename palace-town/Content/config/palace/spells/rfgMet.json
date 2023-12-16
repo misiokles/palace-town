@@ -1,5 +1,5 @@
 {
-	"rfgMet":{
+	"rfgMet_p":{
 		"name":						"Met",
 		"type":						"combat",
 		"targetType" :				"CREATURE",

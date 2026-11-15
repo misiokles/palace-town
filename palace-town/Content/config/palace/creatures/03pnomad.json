@@ -6,7 +6,7 @@
 		"advMapAmount" :{
 			"min" :		16,
 			"max" :		25},
-		"faction" :		"palace",
+		"faction" :		"jpalace",
 		"upgrades":		["mercenary"],
 		"level" :		2,
 		"attack" :		6,

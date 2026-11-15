@@ -16,16 +16,9 @@
 		"skills" :[{ "level" :	"basic",	"skill" :	"firstAid" },
 				{ "level" :	"basic",	"skill" :	"luck" }],
 		"spellbook" :[ "cure"],
-		"specialty" :{
-			"bonuses" :{
-				"firstAid" :{
-					"subtype" : "core:spell.firstAid",
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "SPECIFIC_SPELL_POWER",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" :		"TIMES_HERO_LEVEL"
-		}}},
+				"specialty" : {
+			"secondary" : "firstAid"
+		},
 
 		"texts":{
 			"name" :			"Gula",
@@ -33,7 +26,7 @@
 			"specialty" :{
 				"name" :		"Heal",
 				"tooltip" :		"",
-				"description" : "{Heal}\r\n\r\nReceives a 5% per level bonus to First Aid skill."
+				"description" : "Receives a 5% per level bonus to First Aid skill."
 		}}
 	}
 }

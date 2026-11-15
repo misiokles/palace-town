@@ -24,7 +24,7 @@
 			"specialty" :{
 				"name" :		"Nomad",
 				"tooltip" :		"",
-				"description" :	"{Nomad}\r\n\r\nIncreases the Attack and Defense skills of Nomads and Mercenaries for each level."
+				"description" :	"Increases the Attack and Defense skills of Nomads and Mercenaries for each level."
 		}}
 	}
 }

@@ -41,7 +41,7 @@
 				{
 				"name" :		"Elemetal",
 				"tooltip" :		"",
-				"description" :	"{Elemetal}\r\n\r\nReceives a 5% per level bonus to sorcery skill + haste, stoneSkin, bloodlust and weakness."
+				"description" :	"Receives a 5% per level bonus to sorcery skill + haste, stoneSkin, bloodlust and weakness."
 				}
 			}
 	}

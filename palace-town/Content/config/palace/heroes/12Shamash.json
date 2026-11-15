@@ -18,7 +18,7 @@
 				{ "level" :		"basic",	"skill" :	"offence" },
 				{ "level" :		"basic",	"skill" :	"ballistics" }],
 
-		"specialty" : {"creature" : "ballista"},
+		"specialty" : {"creature" : "ballista", "creatureLevel" : 5},
 
 		"texts":{
 			"name" :			"Shamash",
@@ -26,7 +26,7 @@
 			"specialty" :{
 				"name" :		"Catapult",
 				"tooltip" :		"",
-				"description" :	"{Catapult}\r\n\r\nGive controll of the catapult."
+				"description" :	"Give controll of the catapult."
 		}}
 	}
 }

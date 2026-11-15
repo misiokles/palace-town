@@ -1,7 +1,7 @@
 {
-	"palace" :{
+	"jpalace" :{
 		"name" :					"Palace",
-		"nativeTerrain" :			"sand",
+		"nativeTerrain" :			[ "sand" ],
 		"boat" : 					"boatCastle",
 		"alignment" :				"neutral",
 		"creatureBackground" :{
@@ -158,9 +158,8 @@
 						"small" :	"palace/icons/smallnofort.bmp"}}},
 
 			"primaryResource" :		"crystal",
-			"warMachine" :			"ammoCart",
 			"mageGuild" :			5,
-			"musicTheme" :			"music/PalaceTown",
+			"musicTheme" :			[ "music/PalaceTown" ],
 			"moatAbility" : 		"castleMoat",
 
 			"names" : [

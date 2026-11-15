@@ -26,7 +26,7 @@
 			"specialty" :{
 				"name" :		"Mummies",
 				"tooltip" :		"",
-				"description" :	"{Mummies}\r\n\r\nIncreases the Attack and Defense skills of Mummies and Ancient Rulers for each level.",
+				"description" :	"Increases the Attack and Defense skills of Mummies and Ancient Rulers for each level.",
 				}
 		}
 	}

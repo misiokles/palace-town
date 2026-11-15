@@ -11,7 +11,7 @@
 			"min" :		8,
 			"max" :		12
 			},
-		"faction" :		"palace",
+		"faction" :		"jpalace",
 
 		"level" :		5,
 		"attack" :		16,
@@ -49,15 +49,35 @@
 			"flying" :
 				{"type" :"FLYING"},
 			"deathStare" :
-				{
-				"type" : "DEATH_STARE",
-				"subtype" : "deathStareGorgon",
-				"val" : 10
-				},
-			"fear" :
-				{"type" : "FEAR"},
+{
+    "type" : "COMBAT_EVENT_TRIGGER",
+    "subtype" : "deathStare",
+    "val" : 10,
+    "addInfo" : { "situation" : "melee" }
+},
+			"fearful" :
+			{
+				"type" : "FEARFUL",
+				"val" : 10,
+				"propagator": "BATTLE_WIDE",
+				"propagationUpdater" : "BONUS_OWNER_UPDATER",
+				"description" : "PLACEHOLDER",
+				"limiters" : [
+					"OPPOSITE_SIDE",
+					{
+						"type" : "HAS_ANOTHER_BONUS_LIMITER",
+						"bonusType" : "LIVING"
+					}
+				]
+			},
 			"fearless" :
-				{"type" : "FEARLESS"},
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
+
+			},
 			"deathStrike" :
 				{
 				"type" : "DOUBLE_DAMAGE_CHANCE",

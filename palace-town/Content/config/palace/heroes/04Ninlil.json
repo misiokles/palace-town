@@ -17,14 +17,9 @@
 				{ "level" :		"basic",	"skill" :	"sorcery" }],
 
 		"spellbook" :[ "chainLightning" ],
-		"specialty" :{
-			"bonuses" :{
-				"chainLightning" : {
-					"subtype" : "spell.chainLightning",
-					"type" : "SPECIAL_SPELL_LEV",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 3
-		}}},
+		"specialty" : {
+			"spellScalingPercentage" : "chainLightning"
+		},
 
 		"texts":{
 			"name" :			"Ninlil",
@@ -32,7 +27,7 @@
 				"specialty" :{
 				"name" :		"Chain Lightning",
 				"tooltip" :		"speciality : Chain Lightning",
-				"description" :	"{Chain Lightning}\r\n\r\nCast Chain Lightning with increased effect, based on her level compared to the level of the target unit."
+				"description" :	"Cast Chain Lightning with increased effect, based on her level compared to the level of the target unit."
 		}}
 	}
 }

@@ -27,7 +27,7 @@
 			{
 				"crystal" :
 					{
-					"subtype" :	"resource.crystal",
+					"subtype" :	"crystal",
 					"type" :	"GENERATE_RESOURCE",
 					"val" :		1
 					}
@@ -42,7 +42,7 @@
 			{
 				"name" :		"Crystal",
 				"tooltip" :		"",
-				"description" :	"{Crystal}\r\n\r\n+1 Crystal per day."}
+				"description" :	"+1 Crystal per day."}
 			}
 	}
 }

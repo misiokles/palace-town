@@ -6,7 +6,7 @@
 		"advMapAmount" :{
 			"min" :		18,
 			"max" :		40},
-		"faction" :		"palace",
+		"faction" :		"jpalace",
 		"upgrades":		["reaver"],
 		"level" :		1,
 		"attack" :		3,

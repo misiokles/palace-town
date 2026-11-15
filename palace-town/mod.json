@@ -2,16 +2,17 @@
 	"name" :		"Palace Town",
 	"description" :	"Palace is a new town that takes its inspiration from Mesopotamian, Sumerian and Babylonian, Heroes is from gods and towns from citys",
 	"author":		"Julia",
-	"version" :		"0.2",
+	"version" :		"0.3",
 	"contact":		"mail: julia.k.marklundu@gmail.com",
 	"modType" :		"Town",
 	"compatibility" :
 	{
-		"min" : "1.4.0"
+		"min" : "1.8.0"
 	},
 	"changelog" :{
 		"0.1": [ "Added new factions 'palace'; Creatures & Heroes" ],
-		"0.2": [ "AUpdate to vcmi-1.4 version" ]
+		"0.2": [ "Update to vcmi-1.4 version" ],
+		"0.3": [ "Update to vcmi-1.8 version" ]
 	},
 
 	"factions" :[

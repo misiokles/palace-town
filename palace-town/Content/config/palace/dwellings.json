@@ -6,7 +6,7 @@
 			"templates" :{
 				"default" :{
 					"animation" :	"palace/creatures/dwellings/AVhide",
-					"mask" :		["VBB","VAB" ]}}},
+					"mask" :		["VVV", "VVV","VAV" ]}}},
 
 		"palaceLevel2" : {
 			"name" :				"Stable",
@@ -14,7 +14,7 @@
 			"templates" : {
 				"default" : {
 					"animation" :	"palace/creatures/dwellings/AVstable",
-					"mask" :		[ "VBB", "VBA" ]}}},
+					"mask" :		[ "VVV", "VVV","VAB" ]}}},
 
 		"palaceLevel3" : {
 			"name" :				"Tomb Of King",
@@ -22,7 +22,7 @@
 			"templates" : {
 				"default" : {   
 					"animation" : 	"palace/creatures/dwellings/AVTOK",
-					"mask" :		["BBB","VAB"]}}},
+					"mask" :		["VVV", "VVV","VAB"]}}},
 
 		"palaceLevel4" : {
 			"name" : 				"Sacred Temple",
@@ -30,7 +30,7 @@
 			"templates" : {
 				"default" : {
 					"animation" : 	"palace/creatures/dwellings/AVST",
-					"mask" : 		["VVV","VBB","VBA" ]}}},
+					"mask" : 		["VVVV", "VVVV", "VVBV","VVBA" ]}}},
 
 		"palaceLevel5" : {
 			"name" : 				"Griffin Nest",
@@ -39,7 +39,7 @@
 			"templates" : {
 				"default" : {
 					"animation" :	"palace/creatures/dwellings/AVGN",
-					"mask" : 		["VBB", "VBA" ]}}},
+					"mask" : 		["VVVV", "VVVV", "VVVV","VVAB" ]}}},
 
             "palaceLevel6" : {
                 "name" : "Fortune Tent",
@@ -50,7 +50,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "palace/creatures/dwellings/AVFT",
-                        "mask" : ["VBB","VBA" ]
+                        "mask" : ["VVV", "VVV","VVA" ]
                     }
                 }
             },
@@ -70,5 +70,5 @@
 			"templates" :{
 				"default" :{
 					"animation" :	"magicraider/AVSQ",
-					"mask" :		["BBB","BBA","BBB" ]}}}
+					"mask" :		["VVV", "VVV","VBA" ]}}}
 }}}

@@ -35,7 +35,7 @@
 			"specialty" :{
 				"name" :		"Earthpower",
 				"tooltip" :		"",
-				"description" :	"{Earthpower}\r\n\r\nSpelbook with Earth Magic + Receives a 5% per level bonus to Earth Magic."
+				"description" :	"Spelbook with Earth Magic + Receives a 5% per level bonus to Earth Magic."
 		}}
 	}
 }

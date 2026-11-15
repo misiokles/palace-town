@@ -18,20 +18,9 @@
 			[{ "level" :		"basic",	"skill" :	"mysticism" },
 			 { "level" :		"basic",	"skill" :	"wisdom" }],
 		"spellbook" : ["resurrection", "animateDead" ],
-		"specialty" :
-			{
-			"bonuses" :
-				{
-				"mysticism" :
-				{
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MANA_REGENERATION",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" :		"TIMES_HERO_LEVEL"
-					}
-				}
-			},
+		"specialty" : {
+			"secondary" : "mysticism"
+		},
 		"texts":
 		{
 			"name" :			"Enki",
@@ -40,7 +29,7 @@
 				{
 				"name" :		"Mystic Resurrect",
 				"tooltip" :		"",
-				"description" :	"{Mystic Resurrect}\r\n\r\nReceives a 5% per level bonus to Mysticism + resurrection and Animate Dead."}
+				"description" :	"Receives a 5% per level bonus to Mysticism + resurrection and Animate Dead."}
 		}
 	}
 

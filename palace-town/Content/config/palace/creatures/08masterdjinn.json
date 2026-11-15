@@ -6,7 +6,7 @@
 		"advMapAmount" :{
 			"min" :		10,
 			"max" :		16},
-		"faction" :		"palace",
+		"faction" :		"jpalace",
 
 		"level" :		4,
 		"attack" :		13,
@@ -43,18 +43,25 @@
 		"abilities" :{
 			"flying" :{	
 				"type" :"FLYING"},
-			"fearless" :{
-				"type" : "FEARLESS"},
+						"fearless" :
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
+
+			},
 			"drainsLife" :{
-				"type" : "LIFE_DRAIN",
-				"val" : 100},
+				    "type" : "COMBAT_EVENT_TRIGGER",
+    "subtype" : "lifeDrain",
+    "val" : 100},
 			"Bloodlust" :{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.bloodlust",
+				"subtype" : "bloodlust",
 				"val" : 2},
 			"disruptingRay" :{
 				"type" : "SPELLCASTER",
-				"subtype" : "spell.disruptingRay",
+				"subtype" : "disruptingRay",
 				"val" : 2},
 			"castsCount" :{
 				"type" : "CASTS",

@@ -11,7 +11,7 @@
 			"min" :		3,
 			"max" :		8
 		},
-		"faction" :		"palace",
+		"faction" :		"jpalace",
 
 		"level" :		7,
 		"attack" :		25,
@@ -51,21 +51,33 @@
 			"dragon" : 
 				{"type" : "DRAGON_NATURE"},
 			"fearless" :
-				{"type" : "FEARLESS"},
+			{
+				"type" : "FEARFUL",
+				"valueType" : "INDEPENDENT_MIN",
+				"description" : "PLACEHOLDER",
+				"val" : 0
+			},
 			"acidBreath" :
-				{
-				"type" : "ACID_BREATH",
-				"val" : 25,
-				"addInfo" : 30
-				},
-			"fireBreath" :
-				{"type" : "TWO_HEX_ATTACK_BREATH"},
-			"reduceDefence" :
-				{
+			{
 				"type" : "SPELL_AFTER_ATTACK",
-				"subtype" : "spell.acidBreath",
+				"subtype" : "acidBreathDamage",
+				"val" : 24
+			},
+			// damage of the cast above, multiplied by the number of dragons in the stack
+			"acidBreathDamage" :
+			{
+				"type" : "SPECIFIC_SPELL_POWER",
+				"subtype" : "acidBreathDamage",
+				"val" : 30
+			},
+			"reduceDefence" :
+			{
+				"type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "acidBreath",
 				"val" : 100
-				}
+			},
+			"fireBreath" :
+				{"type" : "TWO_HEX_ATTACK_BREATH"}
 		}
 	}
 }

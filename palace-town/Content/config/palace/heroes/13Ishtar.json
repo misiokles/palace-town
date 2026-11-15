@@ -15,23 +15,17 @@
 		"skills" :[
 				{ "level" :		"advanced",	"skill" :	"resistance" }],
 
-		"specialty" :{
-			"bonuses" :{
-				"resistance" :{
-					"targetSourceType" : "SECONDARY_SKILL",
-					"type" : "MAGIC_RESISTANCE",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_BASE",
-					"updater" :		"TIMES_HERO_LEVEL"
-		}}},
+		"specialty" : {
+			"secondary" : "resistance"
+		},
 
 		"texts":{
 			"name" :			"Ishtar",
 			"biography" :		"With love, beauty and feminine cunning, she deceives her opponents. It is said that no one can avoid their death when one has fallen for her trick.",
 			"specialty" :{
 				"name" :		"Resistance",
-				"tooltip" :		"speciality : Offence",
-				"description" :	"{Resistance}\r\n\r\nReceives a 5% per level bonus to resistance skill."
+				"tooltip" :		"speciality bonus: Resistance",
+				"description" :	"Receives a 5% per level bonus to resistance skill."
 		}}
 	}
 }

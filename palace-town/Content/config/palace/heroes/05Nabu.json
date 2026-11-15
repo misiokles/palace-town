@@ -20,7 +20,7 @@
 		"specialty" :{
 			"bonuses" :{
 				"gold" :{
-					"subtype" :	"resource.gold",
+					"subtype" :	"gold",
 					"type" :	"GENERATE_RESOURCE",
 					"val" :		350
 		}}},
@@ -31,7 +31,7 @@
 			"specialty" :{
 				"name" :		"Writer",
 				"tooltip" :		"Increases kingdom's income by 350 gold per day",
-				"description" :	"{Writer}\r\n\r\nIncreases kingdom's income by 350 gold per day."
+				"description" :	"Increases kingdom's income by 350 gold per day."
 		}}
 	}
 }

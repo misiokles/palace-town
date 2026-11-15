@@ -16,20 +16,8 @@
 				{ "level" :		"basic",	"skill" :	"logistics" },
 				{ "level" :		"basic",	"skill" :	"estates" }],
 
-		"specialty" :
-		{
-			"bonuses" :
-			{
-				"estates" :
-				{
-					"subtype" : "resource.gold",
-					"type" : "GENERATE_RESOURCE",
-					"updater" : "TIMES_HERO_LEVEL",
-					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"targetSourceType" : "SECONDARY_SKILL"
-					}
-				}
+		"specialty" : {
+			"secondary" : "estates"
 		},
 		"texts":{
 			"name" :			"Marduk",
@@ -37,7 +25,7 @@
 			"specialty" :{
 				"name" :		"Estates",
 				"tooltip" :		"",
-				"description" :	"{Estates}\r\n\r\nReceives a 5% per level bonus to Estates skill"
+				"description" :	"Receives a 5% per level bonus to Estates skill"
 		}}
 	}
 }

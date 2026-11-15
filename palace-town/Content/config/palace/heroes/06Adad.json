@@ -34,7 +34,7 @@
 			"specialty" :{
 				"name" :		"Storm",
 				"tooltip" :		"",
-				"description" :	"{Storm}\r\n\r\nSpelbook with Water and Air Magic + Receives a 5% per level bonus to Air Magic."
+				"description" :	"Spelbook with Water and Air Magic + Receives a 5% per level bonus to Air Magic."
 		}}
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"sultan" :{
-		"faction" :			"palace",
+		"faction" :			"jpalace",
 		"name" :			"Sultan",
 		"affinity" :		"might",
 		"commander" :		"castronomer",
@@ -73,7 +73,7 @@
 			"stronghold" 	:	2,
 			"fortress"   	:	4,
 			"conflux"    	:	2,
-			"palace"		:	5
+			"jpalace"		:	5
 			}
 	}
 }

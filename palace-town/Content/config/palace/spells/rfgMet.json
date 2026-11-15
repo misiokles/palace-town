@@ -23,7 +23,7 @@
 		"gainChance":{
 			"castle":				0,
 			"rampart":				0,
-			"palace" :				10},
+			"jpalace" :				10},
 
 		"animation":				{"affect":[	"palace/spells/MET.def"]},
 		"sounds": 					{"cast": 	"spells/MET.WAV"},
@@ -38,7 +38,6 @@
 		"levels":{
 			"base":{
 				"cost":					10,
-				"aiValue":				14,
 				"range":				"0",
 				"targetModifier":		{"smart":true}},
 			"none":{

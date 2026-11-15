@@ -11,7 +11,7 @@
 			"min" :		3,
 			"max" :		8
 			},
-"faction" :		"palace",
+"faction" :		"jpalace",
 		"upgrades": 	["ancientruler"],
 		"level" :		3,
 		"attack" :		7,

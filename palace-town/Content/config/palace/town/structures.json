@@ -1,5 +1,5 @@
 {
-	"palace" :{
+	"jpalace" :{
 		"town" :{
 			"structures":{
 "mageGuild1":     { "animation" : "palace/town-screen/buildings/MAGEGUILD/mg1.def",		"x":0,"y":0,"z":0,	"border" : "palace/town-screen/buildings-border/mg1.bmp", 		"area" : "palace/town-screen/buildings-area/mg1.bmp" },

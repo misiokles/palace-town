@@ -11,7 +11,7 @@
 			"min" :		5,
 			"max" :		10
 		},
-		"faction" :		"palace",
+		"faction" :		"jpalace",
 
 		"level" :		6,
 		"attack" :		17,

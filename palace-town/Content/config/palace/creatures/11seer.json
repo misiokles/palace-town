@@ -11,7 +11,7 @@
 			"min" :		5,
 			"max" :		12
 		},
-		"faction" :		"palace",
+		"faction" :		"jpalace",
 		"upgrades":		["sage"],
 		"level" :		6,
 		"attack" :		17,

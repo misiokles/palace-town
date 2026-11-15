@@ -15,7 +15,7 @@
 		"gainChance":{
 			"castle":				0,
 			"rampart":				0,
-			"palace" :				10},
+			"jpalace" :				10},
 
 		"animation":				{"cast":		[2]},
  		"sounds":					{"cast":		"SUMNELM"},
@@ -35,7 +35,6 @@
 				"description": 			"Summons Gold Golems to fight on your side on battle field.",
 				"cost":					16,
 				"power":				50,
-				"aiValue":				10,
 				"battleEffects":{
 					"summon":{
 						"exclusive":	true,
@@ -48,7 +47,6 @@
 				"description": 			"Summons Gold Golems to fight on your side on battle field.",
 				"cost":					16,
 				"power":				100,
-				"aiValue":				11,
 				"battleEffects":{
 					"summon":{
 						"exclusive":	true,
@@ -61,7 +59,6 @@
 				"description":			 "Summons Gold Golems to fight on your side on battle field.",
 				"cost":					16,
 				"power":				150,
-				"aiValue":				12,
 				"battleEffects":{
 					"summon":{
 						"exclusive":	true,
@@ -74,7 +71,6 @@
 				"description": 			"Summons Diamond Golems to fight on your side on battle field.",
 				"cost":					18,
 				"power":				180,
-				"aiValue":				13,
 				"battleEffects":{
 					"summon":{
 						"exclusive":	true,

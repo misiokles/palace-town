@@ -1,6 +1,6 @@
 {
 	"grandvizier" :{
-		"faction" :			"palace",
+		"faction" :			"jpalace",
 		"name" :			"Grand Vizier",
 		"affinity" :		"magic",
 		"commander" :		"castronomer",
@@ -72,7 +72,7 @@
 			"stronghold"	:	2,
 			"fortress"		:	4,
 			"conflux"		:	2,
-			"palace"		:	5
+			"jpalace"		:	5
 			}
 	}
 }

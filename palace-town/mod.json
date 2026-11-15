@@ -1,28 +1,34 @@
 {
-	"name" :		"Palace Town",
-	"description" :	"Palace is a new town that takes its inspiration from Mesopotamian, Sumerian and Babylonian, Heroes is from gods and towns from citys",
-	"author":		"Julia",
-	"version" :		"0.3",
-	"contact":		"mail: julia.k.marklundu@gmail.com",
-	"modType" :		"Town",
-	"compatibility" :
-	{
+	"name" : "Palace Town",
+	"description" : "Palace is a new town that takes its inspiration from Mesopotamian, Sumerian and Babylonian, Heroes is from gods and towns from citys",
+	"author" : "Julia",
+	"version" : "0.3",
+	"contact" : "mail: julia.k.marklundu@gmail.com",
+	"modType" : "Town",
+	"compatibility" : {
 		"min" : "1.8.0"
 	},
-	"changelog" :{
-		"0.1": [ "Added new factions 'palace'; Creatures & Heroes" ],
-		"0.2": [ "Update to vcmi-1.4 version" ],
-		"0.3": [ "Update to vcmi-1.8 version" ]
+	"changelog" : {
+		"0.1" : [
+			"Added new factions 'palace'; Creatures & Heroes"
+		],
+		"0.2" : [
+			"Update to vcmi-1.4 version"
+		],
+		"0.3" : [
+			"Update to vcmi-1.8 version"
+		]
 	},
 
-	"factions" :[
+	"factions" : [
 		"config/palace/town/buildings.json",
 		"config/palace/town/faction.json",
 		"config/palace/town/puzzle.json",
 		"config/palace/town/siege.json",
-		"config/palace/town/structures.json"],
+		"config/palace/town/structures.json"
+	],
 
-	"creatures" :[
+	"creatures" : [
 		"config/palace/creatures/01progue.json",
 		"config/palace/creatures/02reaver.json",
 		"config/palace/creatures/03pnomad.json",
@@ -39,15 +45,14 @@
 		"config/palace/creatures/14patinadragon.json",
 		"config/palace/creatures/15astronomer.json",
 		"config/magicraider/magicraider.json"
-		],
+	],
 
-	"heroClasses" :[
+	"heroClasses" : [
 		"config/palace/classes/grandvizier.json",
 		"config/palace/classes/sultan.json"
-		],
+	],
 
-	"heroes" :
-		[
+	"heroes" : [
 		"config/palace/heroes/00Tiamat.json",
 		"config/palace/heroes/01Marduk.json",
 		"config/palace/heroes/02Ninhursag.json",
@@ -64,14 +69,14 @@
 		"config/palace/heroes/13Ishtar.json",
 		"config/palace/heroes/14Shala.json",
 		"config/palace/heroes/15Dagan.json"
-		],
+	],
 
-	"spells" :[
+	"spells" : [
 		"config/palace/spells/rfgEmet.json",
 		"config/palace/spells/rfgMet.json"
 	],
 
-	"objects" :[
-        "config/palace/dwellings.json"]
-
+	"objects" : [
+		"config/palace/dwellings.json"
+	]
 }

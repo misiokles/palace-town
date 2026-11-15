@@ -1,31 +1,49 @@
 {
-	"01Marduk" :{
-		"class" :				"sultan",
-		"female" :				false,
-		"images" :{
-			"specialtySmall" :	"palace/heroes/specs/UN32esta.bmp",
-			"specialtyLarge" :	"palace/heroes/specs/UN44esta.bmp",
-			"small" : 			"palace/heroes/portraits/Marduk-small.bmp",
-			"large" : 			"palace/heroes/portraits/Marduk-large.bmp"},
+	"01Marduk" : {
+		"class" : "sultan",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "palace/heroes/specs/UN32esta.bmp",
+			"specialtyLarge" : "palace/heroes/specs/UN44esta.bmp",
+			"small" : "palace/heroes/portraits/Marduk-small.bmp",
+			"large" : "palace/heroes/portraits/Marduk-large.bmp"
+		},
 
-		"army" :[
-				{ "creature":	"pnomad",	"min":	6,	"max" :	9 },
-				{ "creature":	"pnomad",	"min":	6,	"max" :	9 }],
+		"army" : [
+			{
+				"creature" : "pnomad",
+				"min" : 6,
+				"max" : 9
+			},
+			{
+				"creature" : "pnomad",
+				"min" : 6,
+				"max" : 9
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"logistics" },
-				{ "level" :		"basic",	"skill" :	"estates" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "logistics"
+			},
+			{
+				"level" : "basic",
+				"skill" : "estates"
+			}
+		],
 
 		"specialty" : {
 			"secondary" : "estates"
 		},
-		"texts":{
-			"name" :			"Marduk",
-			"biography" :		"Marduk has traveled all over the world to and became famous for building great cities. He uses this reputation to form an army.",
-			"specialty" :{
-				"name" :		"Estates",
-				"tooltip" :		"",
-				"description" :	"Receives a 5% per level bonus to Estates skill"
-		}}
+		"texts" : {
+			"name" : "Marduk",
+			"biography" : "Marduk has traveled all over the world to and became famous for building great cities. He uses this reputation to form an army.",
+			"specialty" : {
+				"name" : "Estates",
+				"tooltip" : "",
+				"description" : "Receives a 5% per level bonus to Estates skill"
+			}
+		}
 	}
 }

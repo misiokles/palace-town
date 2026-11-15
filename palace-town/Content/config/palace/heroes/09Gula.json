@@ -1,32 +1,57 @@
 {
-	"09Gula" :{
-		"class" :				"sultan",
-		"female" :				true,
-		"images" :{
-			"specialtySmall" :	"palace/heroes/specs/UN32heal.bmp",
-			"specialtyLarge" :	"palace/heroes/specs/UN44heal.bmp",
-			"small" : 			"palace/heroes/portraits/Gula-small.bmp",
-			"large" : 			"palace/heroes/portraits/Gula-large.bmp"},
+	"09Gula" : {
+		"class" : "sultan",
+		"female" : true,
+		"images" : {
+			"specialtySmall" : "palace/heroes/specs/UN32heal.bmp",
+			"specialtyLarge" : "palace/heroes/specs/UN44heal.bmp",
+			"small" : "palace/heroes/portraits/Gula-small.bmp",
+			"large" : "palace/heroes/portraits/Gula-large.bmp"
+		},
 
-		"army" :[
-				{ "creature":	"progue",		"min":	16,	"max" :	24 },
-				{ "creature" :	"firstAidTent",	"min" :	1,	"max" :	1  },
-				{ "creature":	"pnomad",	"min":	3,	"max" :	6 }],
+		"army" : [
+			{
+				"creature" : "progue",
+				"min" : 16,
+				"max" : 24
+			},
+			{
+				"creature" : "firstAidTent",
+				"min" : 1,
+				"max" : 1
+			},
+			{
+				"creature" : "pnomad",
+				"min" : 3,
+				"max" : 6
+			}
+		],
 
-		"skills" :[{ "level" :	"basic",	"skill" :	"firstAid" },
-				{ "level" :	"basic",	"skill" :	"luck" }],
-		"spellbook" :[ "cure"],
-				"specialty" : {
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "firstAid"
+			},
+			{
+				"level" : "basic",
+				"skill" : "luck"
+			}
+		],
+		"spellbook" : [
+			"cure"
+		],
+		"specialty" : {
 			"secondary" : "firstAid"
 		},
 
-		"texts":{
-			"name" :			"Gula",
-			"biography" :		"Gula cares for nature and is very skilled in natural medicine. Her knowledge in medicine makes her a popular leader.",
-			"specialty" :{
-				"name" :		"Heal",
-				"tooltip" :		"",
+		"texts" : {
+			"name" : "Gula",
+			"biography" : "Gula cares for nature and is very skilled in natural medicine. Her knowledge in medicine makes her a popular leader.",
+			"specialty" : {
+				"name" : "Heal",
+				"tooltip" : "",
 				"description" : "Receives a 5% per level bonus to First Aid skill."
-		}}
+			}
+		}
 	}
 }

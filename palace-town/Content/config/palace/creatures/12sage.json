@@ -1,71 +1,73 @@
 {
-	"sage":
-	{
-		"name" :
-		{
-			"plural" :	"Sages",
-			"singular" :"Sage"
+	"sage" : {
+		"name" : {
+			"plural" : "Sages",
+			"singular" : "Sage"
 		},
-		"advMapAmount" :
-		{
-			"min" :		5,
-			"max" :		10
+		"advMapAmount" : {
+			"min" : 5,
+			"max" : 10
 		},
-		"faction" :		"jpalace",
+		"faction" : "jpalace",
 
-		"level" :		6,
-		"attack" :		17,
-		"defense" :		15,
-		"damage" :		{ "min" : 20, "max" : 24 },
-		"hitPoints" :	85,
-		"speed" :		9,
-		"growth" :		2,
-		"fightValue" :	2360,
-		"aiValue" :		2360,
-		"cost" :		{ "gold" : 1085 },
-		"doubleWide" :	false,
+		"level" : 6,
+		"attack" : 17,
+		"defense" : 15,
+		"damage" : {
+			"min" : 20,
+			"max" : 24
+		},
+		"hitPoints" : 85,
+		"speed" : 9,
+		"growth" : 2,
+		"fightValue" : 2360,
+		"aiValue" : 2360,
+		"cost" : {
+			"gold" : 1085
+		},
+		"doubleWide" : false,
 
-		"graphics" :
-			{
-			"animationTime" :	{ "attack" : 1, "idle" : 10, "walk" : 1 },
-			"animation" :		"palace/creatures/battle/T6U.def",
-			"map" :			"palace/creatures/map/AVWSage.def",
-			"iconSmall" :		"palace/creatures/iconsSmall/CRSage.bmp",
-			"iconLarge" :		"palace/creatures/iconsBig/CRSage.bmp",
+		"graphics" : {
+			"animationTime" : {
+				"attack" : 1,
+				"idle" : 10,
+				"walk" : 1
+			},
+			"animation" : "palace/creatures/battle/T6U.def",
+			"map" : "palace/creatures/map/AVWSage.def",
+			"iconSmall" : "palace/creatures/iconsSmall/CRSage.bmp",
+			"iconLarge" : "palace/creatures/iconsBig/CRSage.bmp",
 			"timeBetweenFidgets" : 1
-			},
+		},
 
-		"sound" :
-			{
-			"attack": "MGELATTK.wav",
-			"defend": "MGELDFND.wav",
-			"killed": "MGELKILL.wav",
-			"move": "MGELMOVE.wav",
-			"wince": "MGELWNCE.wav"
-			},
+		"sound" : {
+			"attack" : "MGELATTK.wav",
+			"defend" : "MGELDFND.wav",
+			"killed" : "MGELKILL.wav",
+			"move" : "MGELMOVE.wav",
+			"wince" : "MGELWNCE.wav"
+		},
 
-		"abilities" :
-			{
-			"mirror" :
-				{
+		"abilities" : {
+			"mirror" : {
 				"type" : "MAGIC_MIRROR",
 				"val" : 80
-				},
-			"magicResistance" :
-				{
+			},
+			"magicResistance" : {
 				"type" : "SPELL_DAMAGE_REDUCTION",
 				"subtype" : "spellSchool.any",
 				"val" : 40
-				},
-			"drainsMana" :
-				{
+			},
+			"drainsMana" : {
 				"type" : "MANA_DRAIN",
 				"val" : 2
-				},
-			"noRetaliate" :
-				{"type" : "BLOCKS_RETALIATION"},
-			"attackAll" :
-				{"type" : "ATTACKS_ALL_ADJACENT"}
+			},
+			"noRetaliate" : {
+				"type" : "BLOCKS_RETALIATION"
+			},
+			"attackAll" : {
+				"type" : "ATTACKS_ALL_ADJACENT"
 			}
+		}
 	}
 }

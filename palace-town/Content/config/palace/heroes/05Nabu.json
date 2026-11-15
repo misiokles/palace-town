@@ -1,37 +1,60 @@
 {
-	"05Nabu" :{
-		"class" :				"grandvizier",
-		"female" :				false,
-		"images" :{
-			"specialtySmall" :	"palace/heroes/specs/UN32writer.bmp",
-			"specialtyLarge" :	"palace/heroes/specs/UN44writer.bmp",
-			"small" : 			"palace/heroes/portraits/Nabu-small.bmp",
-			"large" : 			"palace/heroes/portraits/Nabu-large.bmp"},
+	"05Nabu" : {
+		"class" : "grandvizier",
+		"female" : false,
+		"images" : {
+			"specialtySmall" : "palace/heroes/specs/UN32writer.bmp",
+			"specialtyLarge" : "palace/heroes/specs/UN44writer.bmp",
+			"small" : "palace/heroes/portraits/Nabu-small.bmp",
+			"large" : "palace/heroes/portraits/Nabu-large.bmp"
+		},
 
-		"army" :[
-				{ "creature":	"progue",	"min":	12,	"max" :	20 },
-				{ "creature":	"pnomad",	"min":	3,	"max" :	6 }],
+		"army" : [
+			{
+				"creature" : "progue",
+				"min" : 12,
+				"max" : 20
+			},
+			{
+				"creature" : "pnomad",
+				"min" : 3,
+				"max" : 6
+			}
+		],
 
-		"skills" :[
-				{ "level" :		"basic",	"skill" :	"scholar" },
-				{ "level" :		"basic",	"skill" :	"intelligence" }],
+		"skills" : [
+			{
+				"level" : "basic",
+				"skill" : "scholar"
+			},
+			{
+				"level" : "basic",
+				"skill" : "intelligence"
+			}
+		],
 
-		"spellbook" :[ "magicArrow", "bless" ],
-		"specialty" :{
-			"bonuses" :{
-				"gold" :{
-					"subtype" :	"gold",
-					"type" :	"GENERATE_RESOURCE",
-					"val" :		350
-		}}},
+		"spellbook" : [
+			"magicArrow",
+			"bless"
+		],
+		"specialty" : {
+			"bonuses" : {
+				"gold" : {
+					"subtype" : "gold",
+					"type" : "GENERATE_RESOURCE",
+					"val" : 350
+				}
+			}
+		},
 
-		"texts":{
-			"name" :			"Nabu",
-			"biography" :		"Nabu has always been very intelligence, He writes many books and makes money of them.",
-			"specialty" :{
-				"name" :		"Writer",
-				"tooltip" :		"Increases kingdom's income by 350 gold per day",
-				"description" :	"Increases kingdom's income by 350 gold per day."
-		}}
+		"texts" : {
+			"name" : "Nabu",
+			"biography" : "Nabu has always been very intelligence, He writes many books and makes money of them.",
+			"specialty" : {
+				"name" : "Writer",
+				"tooltip" : "Increases kingdom's income by 350 gold per day",
+				"description" : "Increases kingdom's income by 350 gold per day."
+			}
+		}
 	}
 }
